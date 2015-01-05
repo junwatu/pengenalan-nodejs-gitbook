@@ -23,7 +23,7 @@ Pada contoh CRUD node-sqlite3 pada bagian sebelumnya kode diatas bisa dituliskan
 db.serialize(function() {
 
     //encrypt database
-    db.run('PRAGMA key="lombokpeudes!"');
+    db.run('PRAGMA key="passwordmu!"');
 
 	// Create table
     db.run(CREATE_TABLE, function(err) {
@@ -38,11 +38,11 @@ db.serialize(function() {
 ```
 Bandingkan jika SQLite  tidak memakai enkripsi, anda bisa menggunakan SQLite Browser atau tool `hexdump` pada Linux
 
-![node-sqlite3-no-enkripsi](images/node-sqlite3-no-enkripsi.png)
+![node-sqlite3-no-enkripsi](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/master/images/node-sqlite3-no-enkripsi.png)
 
 dan jika SQLite memakai enkripsi bisa dilihat dari screenshot dibawah ini bahwa isi dari database menjadi "meaningless".
 
-![node-sqlite3-enkripsi](images/node-sqlite3-enkripsi.png)
+![node-sqlite3-enkripsi](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/master/images/node-sqlite3-enkripsi.png)
 
 
 
