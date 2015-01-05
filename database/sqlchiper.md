@@ -1,4 +1,4 @@
-# sqlchiper
+# sqlcipher
 
 Instalasi ekstensi ini sangat mudah yaitu jika anda berada dalam lingkungan Linux
 

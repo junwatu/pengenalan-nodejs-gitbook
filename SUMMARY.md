@@ -27,7 +27,7 @@
    * [SQLite](database/mysql.md)
        * [Node Sqlite3](database/node-sqlite3.md)
        * [Enkripsi](database/enkripsi.md)
-           * [sqlchiper](database/sqlchiper.md)
+           * [sqlcipher](database/sqlchiper.md)
    * [MySQL](database/mongodb.md)
    * [MongoDB](database/sqlite.md)
    * [Knex.js](database/orm_dengan_knexjs.md)
