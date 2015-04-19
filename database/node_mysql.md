@@ -13,7 +13,7 @@ Seperti biasa untuk menginstall modul npm dan otomatis menyimpan versi modul di 
 
 ##Koneksi Sederhana
 
-Untuk membuat koneksi ke database MySQL pake metode `connection.connect()`
+Untuk membuat koneksi ke database MySQL aalah satu caranya adalah dengan menggunakan metode `connection.connect()`
 
 
     //app.js
@@ -44,3 +44,4 @@ Untuk membuat koneksi ke database MySQL pake metode `connection.connect()`
     });
 
     
+##Query
