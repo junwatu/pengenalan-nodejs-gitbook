@@ -24,7 +24,7 @@ Untuk membuat koneksi ke database MySQL aalah satu caranya adalah dengan menggun
         user: 'root',
         password: ''
     });
-
+    
     //Buka koneksi ke database MySQL
     connection.connect(function(err){
         if(err) {
@@ -33,6 +33,8 @@ Untuk membuat koneksi ke database MySQL aalah satu caranya adalah dengan menggun
             console.log('Koneksi dengan id '+ connection.threadId);
         }
     });
+    
+    // Query
 
     //Tutup koneksi
     connection.end(function(err){
@@ -45,3 +47,4 @@ Untuk membuat koneksi ke database MySQL aalah satu caranya adalah dengan menggun
 
     
 ##Query
+
