@@ -63,5 +63,5 @@ Untuk membuat schema database pakailah SQL statement seperti biasa dipakai di My
     )
     
     
-Intinya adalah dengan metode ini kita bisa memakai SQL statemen yang biasa dipakai untuk query data di MySQL jadi penggunaana modul npm ini cukup mudah.
+Intinya adalah dengan metode ini kita bisa memakai SQL statemen yang biasa dipakai untuk query data di MySQL jadi penggunaan modul npm ini cukup mudah.
     
