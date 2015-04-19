@@ -29,7 +29,7 @@
        * [Enkripsi](database/enkripsi.md)
            * [sqlcipher](database/sqlchiper.md)
    * [MySQL](database/mysql.md)
-       * [Node MySQL](node_mysql.md)
+       * [Node MySQL](database/node_mysql.md)
    * [MongoDB](database/mongodb.md)
    * [Knex.js](database/orm_dengan_knexjs.md)
 * [Testing](testing/README.md)
