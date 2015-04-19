@@ -48,7 +48,9 @@ Untuk membuat koneksi ke database MySQL aalah satu caranya adalah dengan menggun
     
 ##Query
 
-Query database sangat mudah melalui metode `connection.query()` asalkan anda bisa bahasa SQL. Untuk membuat schema database 
+Mungkin istilah `query` menurut mindset kita adalah mengambil data dari database tetapi dalam modul node-mysql untuk membuat database atau schema juga melalui query di metode `connection.query()`. 
+
+Untuk membuat schema database pakailah SQL statement seperti biasa dipakai di MySQL CLI. 
    
     var create_db = 'CREATE DATABASE IF NOT EXISTS node_mysql_test'
     
@@ -59,3 +61,7 @@ Query database sangat mudah melalui metode `connection.query()` asalkan anda bis
           console.log(result);
         }
     )
+    
+    
+Intinya adalah dengan metode ini kita bisa memakai SQL statemen yang biasa dipakai untuk query data di MySQL jadi penggunaana modul npm ini cukup mudah.
+    
