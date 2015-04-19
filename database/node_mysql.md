@@ -48,3 +48,14 @@ Untuk membuat koneksi ke database MySQL aalah satu caranya adalah dengan menggun
     
 ##Query
 
+Query database sangat mudah melalui metode `connection.query()` asalkan anda bisa bahasa SQL. Untuk membuat schema database 
+   
+    var create_db = 'CREATE DATABASE IF NOT EXISTS node_mysql_test'
+    
+    connection.query(create_db, function(err, result){
+        if(err){
+          console.log(err);
+        } else {
+          console.log(result);
+        }
+    )
