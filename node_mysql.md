@@ -1,5 +1,7 @@
 # Node MySQL
 
+Implementasi driver dari MySQL sudah sangat mature seperti modul node di https://github.com/felixge/node-mysql/
+
 
 ##Instalasi
 
