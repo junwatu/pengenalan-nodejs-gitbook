@@ -1,11 +1,11 @@
 # Node MySQL
 
-Implementasi driver dari MySQL sudah sangat mature seperti modul node di https://github.com/felixge/node-mysql/
+Implementasi driver dari MySQL untuk platform Node.jssudah sangat mature seperti modul **node-mysql** di https://github.com/felixge/node-mysql/
 
 
 ##Instalasi
 
-Seperti biasa untuk menginstall modul npm dan otomatis menyimpan versi modul di file `package.json`
+Seperti biasa untuk menginstall modul ini dan secara otomatis menyimpan nama & versi modul di file `package.json` yaitu dengan memakai perintah berikut
 
 
     $ npm install --save mysql
@@ -13,7 +13,7 @@ Seperti biasa untuk menginstall modul npm dan otomatis menyimpan versi modul di 
 
 ##Koneksi Sederhana
 
-Untuk membuat koneksi ke database MySQL satu caranya adalah dengan menggunakan metode `connection.connect()`
+Untuk membuat koneksi ke database MySQL salah satu caranya adalah dengan menggunakan metode `connection.connect()`
 
 
     //app.js
@@ -25,7 +25,7 @@ Untuk membuat koneksi ke database MySQL satu caranya adalah dengan menggunakan m
         password: ''
     });
     
-    //Buka koneksi ke database MySQL
+    //Membuka koneksi ke database MySQL
     connection.connect(function(err){
         if(err) {
             console.log(err);
@@ -34,9 +34,9 @@ Untuk membuat koneksi ke database MySQL satu caranya adalah dengan menggunakan m
         }
     });
     
-    // Query
+    // Query bisa dilakukan di sini
 
-    //Tutup koneksi
+    //Menutup koneksi
     connection.end(function(err){
        if(err) {
            console.log(err);
