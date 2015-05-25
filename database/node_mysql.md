@@ -18,7 +18,11 @@ Untuk membuat koneksi ke database MySQL salah satu caranya adalah dengan menggun
 
     //app.js
     var mysql = require('mysql');
-
+    
+    /**
+    * Setting opsi dari connection 
+    * Lihat https://github.com/felixge/node-mysql/
+    */
     var connection = mysql.createConnection({
         host: 'localhost',
         user: 'root',
