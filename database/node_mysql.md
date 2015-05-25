@@ -20,8 +20,8 @@ Untuk membuat koneksi ke database MySQL salah satu caranya adalah dengan menggun
     var mysql = require('mysql');
     
     /**
-    * Setting opsi dari connection 
-    * Lihat https://github.com/felixge/node-mysql/
+    * Setting opsi dari connection, 
+    * lihat https://github.com/felixge/node-mysql/
     */
     var connection = mysql.createConnection({
         host: 'localhost',
