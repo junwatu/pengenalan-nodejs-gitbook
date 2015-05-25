@@ -48,7 +48,7 @@ Untuk membuat koneksi ke database MySQL salah satu caranya adalah dengan menggun
     
 ##Query
 
-Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema istilah ini juga didefiniskan sebagai query yaitu dengan memakai metode `connection.query()`. 
+Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema juga didefiniskan sebagai `query`. Query ini yaitu memakai metode `connection.query()`. 
 
 Untuk membuat schema database dipakai statemen SQL seperti halnya statemen SQL yang biasa dipakai di MySQL *command line*. 
    
