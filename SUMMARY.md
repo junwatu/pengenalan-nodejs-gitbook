@@ -31,7 +31,6 @@
    * [MySQL](database/mysql.md)
        * [Node MySQL](database/node_mysql.md)
    * [MongoDB](database/mongodb.md)
-   * [Knex.js](database/orm_dengan_knexjs.md)
 * [Testing](testing/README.md)
    * [Mocha](testing/mocha_-_chain_-_sinon.md)
 * [Person REST API](person_rest_api/README.md)
