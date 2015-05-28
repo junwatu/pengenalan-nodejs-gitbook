@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Converter Gambar Ke Data URI
 * [Node.js](nodejs/README.md)
    * [JavaScript Di Server](nodejs/javascript_di_server.md)
    * [Node.js In Action](nodejs/nodejs_show.md)
