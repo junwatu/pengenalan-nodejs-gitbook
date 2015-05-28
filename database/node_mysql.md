@@ -69,3 +69,5 @@ Untuk membuat schema database dipakai statemen SQL seperti halnya statemen SQL y
     
 Pada intinya dengan metode ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
 
+Untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Converter Gambar Ke Data URI**.
+
