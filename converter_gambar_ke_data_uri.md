@@ -1,6 +1,6 @@
 # Konverter Gambar Ke Data URI
 
-CLI data uri merupakan aplikasi CLI yang mengubah gambar ke format data URI kemudian menyimpan data ini ke database MySQL.
+Konverter ini adalah aplikasi Node.js CLI yang mengubah gambar ke format data URI dan kemudian menyimpan data tersebut ke database MySQL.
 
 ```
 /**
