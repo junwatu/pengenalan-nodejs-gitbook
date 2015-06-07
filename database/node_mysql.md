@@ -52,7 +52,7 @@ Untuk membuat koneksi ke database MySQL salah satu caranya adalah dengan menggun
     
 ##Query
 
-Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema juga didefiniskan sebagai `query`. Ada beberapa bentuk fungsi untuk wrapper `query` ini yang pertama adalah
+Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema juga didefiniskan sebagai `query`. Ada beberapa bentuk fungsi untuk wrapper `query`
 
 **`connection.query(sqlString, callback)`** 
 
@@ -69,7 +69,7 @@ Dengan memakai statemen SQL kita bisa membuat schema database **ebook** seperti 
     )
     
     
-Dan bentuk kedua yaitu
+    
 
 **`connection.query(sqlString, value, callback)`** 
 
@@ -104,8 +104,20 @@ Kalau dibutuhkan `escaping` value sebelum dimasukkan ke database MySQL bisa mema
     
 
 **`connection.query(options, callback)`** 
-
-// todo
+    
+    var ebook = {
+        sql: 'INSERT INTO ebook SET pengarang = ?',
+        timeout: 14000,
+        values: ['Pramoedya Ananta Toer']
+    }
+    
+    connection.query(ebook, function(err, result, fields){
+        if(err) {
+            console.log(err);
+        } else {
+            console.log(result);
+        }
+    })
 
 Dengan metode `query` ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
 
