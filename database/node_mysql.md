@@ -126,5 +126,5 @@ Metode `query` ini sangat fleksibel dan pada intinya kita bisa memakai statemen 
 
 Untuk penggunaan modul npm ini lebih lanjut silahkan kunjungi Github [node-mysql](https://github.com/felixge/node-mysql/).
 
-Untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Converter Gambar Ke Data URI**.
+Untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Pengubah Gambar PNG Ke Data URI**.
 
