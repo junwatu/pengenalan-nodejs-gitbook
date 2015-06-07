@@ -52,11 +52,13 @@ Untuk membuat koneksi ke database MySQL salah satu caranya adalah dengan menggun
     
 ##Query
 
-Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema juga didefiniskan sebagai `query`. Query ini yaitu memakai metode `connection.query()`. 
+Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema juga didefiniskan sebagai `query`. Ada beberapa bentuk fungsi untuk wrapper `query` ini
 
-Untuk membuat schema database dipakai statemen SQL seperti halnya statemen SQL yang biasa dipakai di MySQL *command line*. 
+**`connection.query(sqlString, callback)`** 
+
+Contohnya untuk membuat schema database dengan memakai statemen SQL seperti halnya statemen SQL yang biasa dipakai di MySQL CLI. 
    
-    var create_db = 'CREATE DATABASE IF NOT EXISTS node_mysql_test'
+    var create_db = 'CREATE DATABASE IF NOT EXISTS ebook'
     
     connection.query(create_db, function(err, result){
         if(err){
@@ -67,7 +69,21 @@ Untuk membuat schema database dipakai statemen SQL seperti halnya statemen SQL y
     )
     
     
-Pada intinya dengan metode ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
+**`connection.query(sqlString, value, callback)`** 
+
+Pada intinya dengan metode ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah. Misalnya untuk menyimpan data semua judul buku pada database **ebook**
+
+    var insert_ebook = {
+        title: 'Wiro Sableng Pendekar Kapak Maut Naga Geni 212 : Batu Tujuh Warna',
+        pengarang: 'Bastian Tito'
+    }
+    
+    var insert_sql = 'INSERT INTO ebook SET ';
+
+
+**`connection.query(options, callback)`** 
+
+// todo
 
 Untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Converter Gambar Ke Data URI**.
 
