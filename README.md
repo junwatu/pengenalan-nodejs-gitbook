@@ -1,7 +1,7 @@
 #Aplikasi Web Node.js
 
 
-> **Note:** This book is written in Indonesian and the main reason for that is most of Node.js beginners in my country is having difficulties to find Node.js resources written in my native language Bahasa Indonesia.
+> **Note:** This book is written in Bahasa Indonesia and the main reason for that is most of Node.js beginners in my country Indonesia is having difficulties to find Node.js resources written in my native language.
 
 
 ##Buku
