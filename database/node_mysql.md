@@ -56,7 +56,7 @@ Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari 
 
 **`connection.query(sqlString, callback)`** 
 
-Contohnya untuk membuat schema database dengan memakai statemen SQL seperti halnya statemen SQL yang biasa dipakai di MySQL CLI. 
+Dengan memakai statemen SQL kita bisa membuat schema database **ebook** seperti berikut
    
     var create_db = 'CREATE DATABASE IF NOT EXISTS ebook'
     
@@ -71,7 +71,7 @@ Contohnya untuk membuat schema database dengan memakai statemen SQL seperti haln
     
 **`connection.query(sqlString, value, callback)`** 
 
-Pada intinya dengan metode ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah. Misalnya untuk menyimpan data semua judul buku pada database **ebook**
+Dengan metode `query` ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah. Misalnya untuk menyimpan data semua judul buku pada database **ebook**
 
     var insert_ebook = {
         title: 'Wiro Sableng Pendekar Kapak Maut Naga Geni 212 : Batu Tujuh Warna',
