@@ -104,6 +104,9 @@ Kalau dibutuhkan `escaping` value sebelum dimasukkan ke database MySQL bisa mema
     
 
 **`connection.query(options, callback)`** 
+
+Bentuk wrapper  `query` yang terakhir ini cukup ringkas. Sesuaikan saja mana bentuk wrapper yang sesuai dengan kebutuhan anda.
+
     
     var ebook = {
         sql: 'INSERT INTO ebook SET pengarang = ?',
@@ -119,7 +122,7 @@ Kalau dibutuhkan `escaping` value sebelum dimasukkan ke database MySQL bisa mema
         }
     })
 
-Metode `query` ini sangat fleksibel dan pada intinya kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
+Metode `query` ini sangat fleksibel dan pada intinya kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL. Jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
 
 Untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Converter Gambar Ke Data URI**.
 
