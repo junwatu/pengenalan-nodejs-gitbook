@@ -71,14 +71,22 @@ Dengan memakai statemen SQL kita bisa membuat schema database **ebook** seperti 
     
 **`connection.query(sqlString, value, callback)`** 
 
-Dengan metode `query` ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah. Misalnya untuk menyimpan data semua judul buku pada database **ebook**
+Dengan metode `query` ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
 
-    var insert_ebook = {
+Misalnya untuk menyimpan data semua judul buku pada database **ebook**
+
+    var ebook = {
+        id: 1,
         title: 'Wiro Sableng Pendekar Kapak Maut Naga Geni 212 : Batu Tujuh Warna',
         pengarang: 'Bastian Tito'
     }
     
-    var insert_sql = 'INSERT INTO ebook SET ';
+    var insert_sql = 'INSERT INTO ebook SET ?';
+    
+    connection.query(insert_sql, ebook, function(err, result){
+        err ? console.log(err): console.log(result);
+    })
+    
 
 
 **`connection.query(options, callback)`** 
