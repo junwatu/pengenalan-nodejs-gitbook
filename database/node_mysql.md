@@ -124,7 +124,5 @@ Bentuk wrapper  `query` yang terakhir ini cukup ringkas. Sesuaikan saja mana ben
 
 Metode `query` ini sangat fleksibel dan pada intinya kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL. Jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
 
-Untuk penggunaan modul npm ini lebih lanjut silahkan kunjungi Github [node-mysql](https://github.com/felixge/node-mysql/).
-
-Untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Pengubah Gambar PNG Ke Data URI**.
+Untuk penggunaan modul npm ini lebih lanjut silahkan kunjungi Github [node-mysql](https://github.com/felixge/node-mysql/) dan untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Pengubah Gambar PNG Ke Data URI**.
 
