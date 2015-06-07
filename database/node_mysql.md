@@ -52,7 +52,7 @@ Untuk membuat koneksi ke database MySQL salah satu caranya adalah dengan menggun
     
 ##Query
 
-Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema juga didefiniskan sebagai `query`. Ada beberapa bentuk fungsi untuk wrapper `query` ini
+Istilah `query` mungkin menurut mindset umum artinya adalah mengambil data dari database tetapi dalam modul node-mysql ini untuk membuat database atau schema juga didefiniskan sebagai `query`. Ada beberapa bentuk fungsi untuk wrapper `query` ini yang pertama adalah
 
 **`connection.query(sqlString, callback)`** 
 
@@ -69,9 +69,10 @@ Dengan memakai statemen SQL kita bisa membuat schema database **ebook** seperti 
     )
     
     
+Dan bentuk kedua yaitu
+
 **`connection.query(sqlString, value, callback)`** 
 
-Dengan metode `query` ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
 
 Misalnya untuk menyimpan data semua judul buku pada database **ebook**
 
@@ -87,11 +88,26 @@ Misalnya untuk menyimpan data semua judul buku pada database **ebook**
         err ? console.log(err): console.log(result);
     })
     
+Kalau dibutuhkan `escaping` value sebelum dimasukkan ke database MySQL bisa memakai metode `.escape()` atau pake placeholder `?`.
 
+    var ebook = {
+        id: 1,
+        title: 'Wiro Sableng Pendekar Kapak Maut Naga Geni 212 : Batu Tujuh Warna',
+        pengarang: 'Bastian Tito'
+    }
+    
+    var insert_sql = 'UPDATE ebook SET title = ? WHERE id = ?';
+    
+    connection.query(insert_sql, [ebook.title, ebook.id], function(err, result){
+        err ? console.log(err): console.log(result);
+    })
+    
 
 **`connection.query(options, callback)`** 
 
 // todo
+
+Dengan metode `query` ini kita bisa memakai statemen SQL yang biasa dipakai untuk query data di MySQL, jadi penggunaan dari modul npm ini sebenarnya cukuplah mudah.
 
 Untuk contoh aplikasi yang memanfaatkan database ini bisa dilihat pada bab **Converter Gambar Ke Data URI**.
 
