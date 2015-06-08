@@ -114,9 +114,9 @@ Parsing argumen dilakukan oleh `process` yang merupakan object global di [Node.j
     
 Jika anda berada pada platform UNIX atau GNU LINUX script diatas bisa dirubah untuk `self executable` dengan menambahkan script berikut pada line 1 di file `tdi.js`
 
-    #! /usr/bin/env node
+    #!/usr/bin/env node
     
-Kemudian untuk menjalankannya cukup mudah 
+Kemudian untuk menjalankannya cukup mudah seperti berikut
 
     $ ./tdi.js
     
