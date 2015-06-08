@@ -2,6 +2,8 @@
 
 Mari kita lihat isi dari file `todatauri.js`. Pada dasarnya file ini merupakan pustaka sederhana yang akan mendownload image berformat `.png` di internet dan kemudian mengubahnya menjadi format **Data URI**.
 
+Jadi anda bisa menggunakan seperti halnya modul npm dengan bantuan `require`.
+
 
 ```
 /**
@@ -91,4 +93,4 @@ function Util() {
 module.exports = Util();
 ```
 
-Fungsi utama yang dipakai jika file `todatauri.js` di import yaitu fungsi `toDataURI()`
+Fungsi utama pada file `todatauri.js` yaitu fungsi `imageToDataUri()`
