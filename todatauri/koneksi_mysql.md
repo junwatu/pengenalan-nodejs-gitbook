@@ -5,7 +5,7 @@ Untuk koneksi ke database MySQL cukup mudah seperti yang telah dibahas pada bab 
 
 ```
 /**
- * Sample use todatauri.js with Mysql
+ * todatauri.js dengan Mysql
  */
 var Util = require('./todatauri.js');
 var mysql = require('mysql');
