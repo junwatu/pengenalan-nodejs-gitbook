@@ -34,7 +34,7 @@
 * [Testing](testing/README.md)
    * [Mocha](testing/mocha_-_chain_-_sinon.md)
 * [ToDataURI](todatauri/todatauri.md)
-   * Penggunaan
+   * [Penggunaan](todatauri/penggunaan.md)
    * [Konverter Gambar PNG Ke Data URI](todatauri/konverter_gambar_png_ke_data_uri.md)
    * [Koneksi MySQL](todatauri/koneksi_mysql.md)
 * [Person REST API](person_rest_api/README.md)
