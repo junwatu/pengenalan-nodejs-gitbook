@@ -23,3 +23,22 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAAABGdBTUEAAN
 ```
 
 Cukup panjang memang kalo di jadikan ke format Data URI. Coba kopi contoh data uri diatas dan *paste* ke browser url dan jangan lupa tekan enter.
+
+#Cara Penggunaan
+
+Ada tiga penggunaan file `tdi.js` yaitu
+
+##Download PNG & Simpan Ke MySQL 
+
+    $ node ./tdi.js <url_image_png_dari_internet>
+    
+ 
+ 
+##Demo 
+
+    $ node ./tdi.js
+        
+##Tampilkan Data MySQL
+
+    $ node ./tdi.js show
+    
