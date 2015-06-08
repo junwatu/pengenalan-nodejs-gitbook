@@ -35,6 +35,7 @@
    * [Mocha](testing/mocha_-_chain_-_sinon.md)
 * [ToDataURI](todatauri.md)
    * [Konverter Gambar PNG Ke Data URI](konverter_gambar_png_ke_data_uri.md)
+   * Koneksi MySQL
 * [Person REST API](person_rest_api/README.md)
    * [Cara Kerja](person_rest_api/inisialisasi.md)
    * [Kode](person_rest_api/kode.md)
