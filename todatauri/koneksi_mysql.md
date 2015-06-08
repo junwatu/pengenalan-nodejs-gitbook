@@ -108,6 +108,18 @@ function closeConnection(){
 
 
 ```
+Parsing argumen dilakukan oleh `process` yang merupakan object global di [Node.js](http://nodejs.org/api/process.html). Perlu diingat bahwa JavaScript memulai array dengan index 0 sehingga argumen yang diperlukan berada pada index 2
+
+    process.argv[2]
+    
+Jika anda berada pada platform UNIX atau GNU LINUX script diatas bisa dirubah untuk `self executable` dengan menambahkan script berikut pada line 1 di `tdi.js`
+
+    `#! /usr/bin/env node`
+    
+dan mengubah index argumen `process` ke 1
+
+    `process.argv[1]`
+    
 
 Script `tdi.js` sebenarnya cukup sederhana dan sudah cukup untuk melakukan tugas yang di inginkan. Mungkin kelihatan agak rumit karena banyak `callback` di sana sini tetapi kalo anda sudah terbiasa memprogram secara asinkron pasti mudah sekali untuk melihat kode diatas.
 
