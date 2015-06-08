@@ -14,15 +14,17 @@ Ada tiga penggunaan aplikasi ini yaitu
 
     $ node ./tdi.js <url_image_png_dari_internet>
     
- 
+ Aplikasi ini akan mendownload file image png dari internet dan mendukung protokol `http` ataupun `https`.
  
 ##Demo 
 
     $ node ./tdi.js
+    
+Jika dijalankan tanpa argumen maka hasilnya adalah keluaran demo yang tidak lain adalah contoh format Data URI.
         
 ##Tampilkan Data MySQL
 
     $ node ./tdi.js show
     
-
+Jika ada argumen `show` maka data dalam MySQL akan ditampilkan semua. Hati hati jika anda banyak mengkonversi banyak data gambar png.
 
