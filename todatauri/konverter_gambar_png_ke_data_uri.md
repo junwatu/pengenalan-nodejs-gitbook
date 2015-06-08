@@ -1,6 +1,6 @@
 # Konverter PNG Ke Data URI
 
-Kode sumber selengkapnya bisa di lihat di [Github](https://github.com/junwatu/todatauri) pada branch `todatauri-mysql` atau ketik perintah berikut pada command line. 
+Untuk kode sumber selengkapnya bisa di lihat di [Github](https://github.com/junwatu/todatauri) pada branch `todatauri-mysql` atau ketik perintah berikut pada command line. 
 
     $ git clone -b todatauri-mysql https://github.com/junwatu/todatauri todatauri-mysql
     
@@ -8,23 +8,7 @@ Kode sumber selengkapnya bisa di lihat di [Github](https://github.com/junwatu/to
     
     $ npm install
     
-Ada tiga penggunaan file `tdi.js` yaitu
-
-##Download PNG & Simpan Ke MySQL 
-
-    $ node ./tdi.js <url_image_png_dari_internet>
     
- 
-##Demo 
-
-    $ node ./tdi.js
-        
-##Tampilkan Data MySQL
-
-    $ node ./tdi.js show
-    
-    
-
 Mari kita lihat isi dari file `todatauri.js`. Pada dasarnya file ini merupakan pustaka sederhana yang akan mendownload image berformat `.png` di internet dan kemudian mengubahnya menjadi format **Data URI**.
 
 
