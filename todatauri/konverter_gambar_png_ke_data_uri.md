@@ -2,7 +2,7 @@
 
 Mari kita lihat isi dari file `todatauri.js`. Pada dasarnya file ini merupakan pustaka sederhana yang akan mendownload image berformat `.png` di internet dan kemudian mengubahnya menjadi format **Data URI**.
 
-Jadi anda bisa menggunakan seperti halnya modul npm dengan bantuan `require`.
+Jadi anda bisa menggunakan pustaka ini seperti halnya modul npm dengan bantuan `require`.
 
 
 ```
