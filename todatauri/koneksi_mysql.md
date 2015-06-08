@@ -6,6 +6,11 @@ Untuk koneksi ke database MySQL cukup mudah seperti yang telah dibahas pada bab 
 ```
 /**
  * todatauri.js dengan Mysql
+ *
+ *
+ * WTFPL
+ * Equan Pr.
+ * 2015
  */
 var Util = require('./todatauri.js');
 var mysql = require('mysql');
