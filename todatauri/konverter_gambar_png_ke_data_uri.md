@@ -1,14 +1,5 @@
 # Konverter PNG Ke Data URI
 
-Untuk kode sumber selengkapnya bisa di lihat di [Github](https://github.com/junwatu/todatauri) pada branch `todatauri-mysql` atau ketik perintah berikut pada command line. 
-
-    $ git clone -b todatauri-mysql https://github.com/junwatu/todatauri todatauri-mysql
-    
-    $ cd todatauri-mysql
-    
-    $ npm install
-    
-    
 Mari kita lihat isi dari file `todatauri.js`. Pada dasarnya file ini merupakan pustaka sederhana yang akan mendownload image berformat `.png` di internet dan kemudian mengubahnya menjadi format **Data URI**.
 
 
