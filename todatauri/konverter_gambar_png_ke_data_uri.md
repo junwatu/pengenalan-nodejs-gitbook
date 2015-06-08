@@ -1,8 +1,5 @@
 # Konverter PNG Ke Data URI
 
-
-Aplikasi ini adalah aplikasi Node.js CLI yang mengubah gambar ke format data URI dan kemudian menyimpan data tersebut ke database MySQL. 
-
 Kode sumber selengkapnya bisa di lihat di [Github](https://github.com/junwatu/todatauri) pada branch `todatauri-mysql` atau ketik perintah berikut pada command line. 
 
     $ git clone -b todatauri-mysql https://github.com/junwatu/todatauri todatauri-mysql
