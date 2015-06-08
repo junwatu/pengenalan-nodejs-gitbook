@@ -97,4 +97,4 @@ Fungsi utama pada file `todatauri.js` yaitu fungsi `imageToDataUri()` dan jika d
 
     buf.toString(encoding))
 
-
+[`fs.readFile(filename[, options], callback)`](https://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback) merupakan fungsi untuk membaca file secara asinkron dan jika encoding tidak di berikan maka hasil pembacaan file akan mengembalikan data berupa `buffer`. Sehingga untuk mengubah data `buffer` ini ke `base64` cukup dengan memakai metode `.toString(encoding)`.
