@@ -1,6 +1,6 @@
 # Koneksi MySQL
 
-Untuk koneksi ke database MySQL cukup mudah seperti yang telah dibahas pada bab sebelumnya tentang [Node dan Database MySQL]()
+Untuk koneksi ke database MySQL cukup mudah seperti yang telah dibahas pada bab sebelumnya tentang Node dan Database MySQL.
 
 
 ```
@@ -108,3 +108,8 @@ function closeConnection(){
 
 
 ```
+
+Script `tdi.js` sebenarnya cukup sederhana dan sudah cukup untuk melakukan tugas yang di inginkan. Mungkin kelihatan agak rumit karena banyak `callback` di sana sini tetapi kalo anda sudah terbiasa memprogram secara asinkron pasti mudah sekali untuk melihat kode diatas.
+
+Penulis sarankan untuk ke depannya jika diinginkan penulisan tanpa `callback` bisa dipelajari tentang `Promises` JavaScript ES6.
+
