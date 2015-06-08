@@ -93,4 +93,8 @@ function Util() {
 module.exports = Util();
 ```
 
-Fungsi utama pada file `todatauri.js` yaitu fungsi `imageToDataUri()`
+Fungsi utama pada file `todatauri.js` yaitu fungsi `imageToDataUri()` dan jika dilihat isinya maka sebenarnya sangat sederhana untuk mengubah gambar png ke encoding `base64` yang akan digunakan di Data URI.
+
+    buf.toString(encoding))
+
+
