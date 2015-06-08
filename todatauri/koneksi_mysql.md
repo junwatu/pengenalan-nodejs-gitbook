@@ -1,5 +1,6 @@
 # Koneksi MySQL
 
+Untuk koneksi ke database MySQL cukup mudah seperti yang telah dibahas pada bab sebelumnya tentang [Node dan Database MySQL]('database/mysql.md')
 
 ```
 /**
