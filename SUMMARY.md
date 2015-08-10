@@ -37,7 +37,7 @@
    * [Koneksi MySQL](todatauri/koneksi_mysql.md)
 * [Person REST API](person_rest_api/README.md)
    * [Cara Kerja](person_rest_api/inisialisasi.md)
-   * [Kode](person_rest_api/kode.md)
+   * [Server ](person_rest_api/kode.md)
 * [Image Uploader](image_uploader/README.md)
 * [Tentang Pengarang](pengarang/README.md)
 
