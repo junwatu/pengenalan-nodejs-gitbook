@@ -18,7 +18,6 @@
    * [Paket npm](npm/konsep.md)
 * [ExpressJS](expressjs/README.md)
    * [Server File](expressjs/server.md)
-       * [Kode](expressjs/kode.md)
        * [Middleware](expressjs/middleware.md)
        * [Akses Server](expressjs/akses_server.md)
    * [Server REST](expressjs/server_rest.md)
