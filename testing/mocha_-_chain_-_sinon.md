@@ -1,1 +1,1 @@
-# Mocha - Chai - Sinon
+# Mocha
