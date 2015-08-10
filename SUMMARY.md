@@ -10,7 +10,6 @@
 * [Server HTTP Dasar](server_http_dasar/README.md)
    * [Menjalankan Server](server_http_dasar/menjalankan_server.md)
 * [Server File Statis](server_file_statis/README.md)
-   * [Kode](server_file_statis/kode.md)
 * [Pemrosesan Data Form HTML](pemrosesan_data_form_html/README.md)
    * [URL Encode](pemrosesan_data_form_html/url_encoded.md)
    * [Multipart Data](pemrosesan_data_form_html/multipart.md)
