@@ -38,7 +38,7 @@
 * [Person REST API](person_rest_api/README.md)
    * [Cara Kerja](person_rest_api/inisialisasi.md)
    * [Server](person_rest_api/kode.md)
-   * Testing
+   * [Testing](person_rest_api/testing.md)
 * [Image Uploader](image_uploader/README.md)
 * [Tentang Pengarang](pengarang/README.md)
 
