@@ -10,4 +10,5 @@ Diagram kerja aplikasi Person REST digambarkan pada diagram dibawah ini
 ![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/persons-rest-diagram.png)
 
 
-Untuk pengguna aplikasi ini bisa secara langsung menggunakan bantuan alat *Command Line Interface* seperti Curl atau HTTPie ataupun yang lebih ramah seperti Postman dan bisa juga anda membangun antarmuka web dengan memakai API yang disediakan oleh server Person ini.
+
+Untuk pengetesan operasi CRUD pengguna aplikasi ini bisa secara langsung menggunakan bantuan alat *Command Line Interface* seperti Curl atau HTTPie ataupun yang lebih ramah seperti Postman dan bisa juga anda membangun antarmuka web dengan memakai API yang disediakan oleh server Person ini.
