@@ -1,6 +1,6 @@
 #Server
 
-Kode sumber dari aplikasi ini dapat anda download di link berikut
+Kode sumber dari aplikasi ini dapat di download di link berikut
 
 https://github.com/junwatu/rest-node-mongoose-mongodb
 
