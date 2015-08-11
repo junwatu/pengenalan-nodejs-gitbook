@@ -41,4 +41,5 @@
    * [Pengetesan](person_rest_api/testing.md)
 * [Image Uploader](image_uploader/README.md)
 * [Tentang Pengarang](pengarang/README.md)
+* Memakai ES6
 
