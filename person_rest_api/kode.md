@@ -5,6 +5,18 @@ Kode sumber dari aplikasi ini dapat anda download di link berikut
 https://github.com/junwatu/rest-node-mongoose-mongodb
 
 
+##Instalasi
+
+Clone kode sumber melalui git dan instal depedensi paket melalui npm
+
+
+    $ git clone https://github.com/junwatu/rest-node-mongoose-mongodb.git
+    
+    $ cd rest-node-mongoose-mongodb
+    
+    $ npm install
+
+
 Untuk lingkungan produksi ada baiknya untuk memecah file ke bagian yang lebih kecil supaya lebih mudah dalam hal *maintenance*. Untuk kemudahan dan kesederhanaan aplikasi ini maka kode utama ditulis  dalam satu file.
 
 > app.js
