@@ -5,7 +5,7 @@ Kode sumber dari aplikasi ini dapat anda download di link berikut
 https://github.com/junwatu/rest-node-mongoose-mongodb
 
 
-Untuk lingkungan produksi ada baiknya untuk memecah file ke bagian yang lebih kecil supaya lebih mudah dalam hal *maintenance*. Untuk kemudahan dan kesederhanaan aplikasi ini maka kode utama ditulisa dalam satu file.
+Untuk lingkungan produksi ada baiknya untuk memecah file ke bagian yang lebih kecil supaya lebih mudah dalam hal *maintenance*. Untuk kemudahan dan kesederhanaan aplikasi ini maka kode utama ditulis  dalam satu file.
 
 > app.js
 
