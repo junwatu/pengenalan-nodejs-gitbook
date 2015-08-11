@@ -40,6 +40,6 @@
    * [Server](person_rest_api/kode.md)
    * [Pengetesan](person_rest_api/testing.md)
 * [Image Uploader](image_uploader/README.md)
-* Memakai ES6
+* [Memakai ES6](es6/memakai_es6.md)
 * [Tentang Pengarang](pengarang/README.md)
 
