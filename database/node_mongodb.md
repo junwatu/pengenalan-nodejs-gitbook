@@ -30,7 +30,7 @@ mongodb://<username>:<password>@<localhost>:<port>/<database>
 ```
 
 
-Jalannkan apikasi dan jika tidak ada masalah maka pesan bahwa koneksi sukses ke MongoDB akan muncul pada terminal.
+Jalankan apikasi dan jika tidak ada masalah maka pesan bahwa koneksi sukses ke MongoDB akan muncul pada terminal.
 
     $ node app.js
     Koneksi ke MongoDB Ok!
