@@ -6,3 +6,4 @@ MongoDB menyediakan driver resmi untuk platform Node.js. Module npm ini tersedia
     $ npm install --save mongodb
 
 
+Penulis mengasumsikan bahwa MongoDB sudah terinstall pada sistem. 
