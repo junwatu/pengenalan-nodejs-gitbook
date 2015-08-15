@@ -52,11 +52,16 @@ Sebelum kita lanjutkan ke koneksi Node.js dan MongoDB, perlu di ingat beberapa k
 
 ###Collection
 
-**Collection** adalah kumpulan dari **document**.
+**Collection** adalah kumpulan dari **document**, analoginya walaupun kurang tepat sebenarnya bisa dibilang seperti tabel kalo dalam database relasional.
 
 ###Document
 
-**Document** adalah data yang disimpan di database NoSQL dan di definisikan oleh yang namanya *Schema*. Sebelumnya di katakan bahwa NoSQL menyimpan data yang *schema-less*, memang benar tapi tetap untuk menyimpan suatu dokumen di database biasanya aplikasi bekerja dengan model data tertentu misalnya untuk data `Person` bisa mempunyai key value seperti berikut
+**Document** itu sendiri adalah data yang tersimpan di database NoSQL dan didefinisikan oleh yang namanya **Schema**.
+
+
+###Schema
+
+Sebelumnya di katakan bahwa NoSQL menyimpan data yang *schema-less*, memang benar tapi tetap untuk menyimpan suatu dokumen di database biasanya aplikasi bekerja dengan model data tertentu misalnya untuk data `Person` bisa mempunyai key value seperti berikut
 
 ```
 {
