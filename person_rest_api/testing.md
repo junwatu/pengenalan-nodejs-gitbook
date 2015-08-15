@@ -18,3 +18,7 @@ Mengambil data dengan mengakses API `/persons` yang akan mengembalikan semua dat
 
 (deskripsi lebih lanjut)
 
+##UPDATE /persons/:username
+
+![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-update.png)
+
