@@ -8,7 +8,6 @@ Untuk membuat data Person baru melalui api `/persons`
 
 ![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-post.png)
 
-(deskripsi lebih lanjut)
 
 ##GET /persons
 
@@ -16,13 +15,13 @@ Mengambil data dengan mengakses API `/persons` yang akan mengembalikan semua dat
 
 ![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-get.png)
 
-(deskripsi lebih lanjut)
 
-##UPDATE /persons/:username
+##PUT /persons/:username
+
+Update data bisa dilakukan dengan mudah dengan memakai PUT.
 
 ![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-update.png)
 
-(deskripsi lebih lanjut)
 
 ##DELETE /persons/:username
 
