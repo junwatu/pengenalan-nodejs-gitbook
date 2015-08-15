@@ -2,7 +2,7 @@
 
 Kalau anda sudah terbiasa memakai database relasional seperti MySQL mungkin diperlukan sedikit perubahan *mindset* untuk mengenal tipe database yang namanya **NoSQL**. Seperti arti dari namanya, database ini merupakan database yang tidak memakai bahasa SQL query data tapi bisa secara langsung menggunakan bahasa pemrograman client sebagai contoh adalah [MongoDB](https://www.mongodb.org/).
 
-Database **NoSQL** seperti MongoDB menyimpan data sebagai dokumen yang *schemaless* yang artinya data yang disimpan mempunyai key - value yang tidak terikat atau bebas. Anda bisa membayangkan data JSON yang kemudian di simpan ke database.
+Database **NoSQL** seperti MongoDB menyimpan data sebagai dokumen yang *schema-less* yang artinya data yang disimpan mempunyai *key - value* yang tidak terikat atau bebas. Anda bisa membayangkannya sebagai data JSON yang disimpan di database.
 
 Klien bisa berinteraksi langsung dengan database MongoDB dengan menggunakan JavaScript bahkan shell terminal `mongo` untuk administrasi dan manipulasi data di database MongoDB juga memakai JavaScript. 
 
