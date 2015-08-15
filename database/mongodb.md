@@ -2,7 +2,9 @@
 
 Kalau anda sudah terbiasa memakai database relasional seperti MySQL mungkin diperlukan sedikit perubahan *mindset* untuk mengenal tipe database yang namanya **NoSQL**. Seperti arti dari namanya, database ini merupakan database yang tidak memakai bahasa SQL query data tapi bisa secara langsung menggunakan bahasa pemrograman client sebagai contoh adalah [MongoDB](https://www.mongodb.org/).
 
-Klien bisa berinteraksi langsung dengan database MongoDB dengan menggunakan JavaScript bahkan shell terminal `mongo` untuk administrasi dan manipulasi data di database MongoDB juga memakai JavaScript. Sebagai contoh jika kita ingin membuat sample data sebanyak 100 di **collection** `sample` maka perintah shell seperti berikut
+Klien bisa berinteraksi langsung dengan database MongoDB dengan menggunakan JavaScript bahkan shell terminal `mongo` untuk administrasi dan manipulasi data di database MongoDB juga memakai JavaScript. 
+
+Sebagai contoh jika kita ingin membuat sample data sebanyak 100 di **collection** `sample` maka perintah shell seperti berikut,
 
 
 ```
@@ -44,6 +46,11 @@ Type "it" for more
 
 ```
 
+Untuk lebih jelasnya jika anda tertarik untuk bermain main dengan terminal MongoDB silahkan kunjungi [dokumentasinya](https://docs.mongodb.org/getting-started/shell/).
+
+Sebelum kita lanjutkan ke koneksi Node.js dan MongoDB, perlu di ingat beberapa konsep penting dari MongoDB 
+
+##Collection
 
 
 
