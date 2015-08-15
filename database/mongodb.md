@@ -4,7 +4,7 @@ Kalau anda sudah terbiasa memakai database relasional seperti MySQL mungkin dipe
 
 Database **NoSQL** seperti MongoDB menyimpan data sebagai dokumen yang *schema-less* yang artinya yaitu data yang disimpan mempunyai *key - value* yang tidak terikat atau bebas. Anda bisa membayangkannya sebagai data JSON yang tersimpan di database.
 
-Klien bisa berinteraksi langsung dengan database MongoDB dengan menggunakan shell JavaScript `mongo` untuk administrasi dan query data. Sebagai contoh jika kita ingin membuat sample data sebanyak 100 di **collection** `sample` maka perintah shell adalah seperti berikut,
+Klien bisa berinteraksi langsung dengan database MongoDB dengan menggunakan shell JavaScript `mongo` untuk administrasi dan query data. Sebagai contoh jika kita ingin membuat sample data sebanyak 100 di **collection** `sample` maka perintah dalam shell adalah seperti berikut,
 
 
 ```
