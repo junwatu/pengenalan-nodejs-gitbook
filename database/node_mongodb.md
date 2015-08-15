@@ -48,33 +48,6 @@ function PersonSchema(data) {
     this.username = data.username;          
 };
 
-Object.defineProperty(PersonSchema, 'nama', {
-    get: function() {
-        return this.nama;
-    },
-    set: function(val){
-        this.nama = val;
-    }
-})
-
-Object.defineProperty(PersonSchema, 'email', {
-    get: function() {
-        return this.email;
-    },
-    set: function(val){
-        this.email = val;
-    }
-})
-
-Object.defineProperty(PersonSchema, 'username', {
-    get: function() {
-        return this.username;
-    },
-    set: function(val){
-        this.username = val;
-    }
-})
-
 module.exports = PersonSchema;
 
 
