@@ -4,7 +4,6 @@ Untuk menggunakan atau pengetesan API ini cara termudah adalah dengan memakai [P
 
 > [persons-api.herokuapp.com](persons-api.herokuapp.com)
 
-Tolong digunakan dengan bijak. 
 
 ##POST /persons 
 
