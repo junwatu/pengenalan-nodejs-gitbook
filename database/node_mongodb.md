@@ -21,7 +21,7 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 
 ```
 
-Jika tidak ada masalah maka pesan bahwa koneksi sukses ke MongoDB akan muncul pada terminal.
+MongoDB akan membuat database jika database tersebut tidak ada, seperti halnya dengan database `sample` pada kode diatas. Jika tidak ada masalah maka pesan bahwa koneksi sukses ke MongoDB akan muncul pada terminal.
 
     $ node app.js
     Koneksi ke MongoDB Ok!
