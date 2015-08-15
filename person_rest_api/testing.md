@@ -2,7 +2,7 @@
 
 Untuk menggunakan atau pengetesan API ini cara termudah adalah dengan memakai [Postman](https://www.getpostman.com/) atau jika anda sudah terbiasa memakai tool terminal seperti [cURL](http://curl.haxx.se/) atau [Httpie](https://github.com/jkbrzt/httpie) silahkan saja.
 
-Demo aplikasi dapat diakses pada link berikut
+Demo aplikasi berada pada link berikut,
 
 > [persons-api.herokuapp.com](persons-api.herokuapp.com)
 
