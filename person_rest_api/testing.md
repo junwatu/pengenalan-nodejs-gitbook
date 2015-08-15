@@ -1,6 +1,6 @@
 #Pengetesan
 
-Untuk menggunakan API ini cara termudah adalah dengan memakai Postman. 
+Untuk menggunakan API ini cara termudah adalah dengan memakai [Postman](https://www.getpostman.com/). 
 
 ##POST /persons 
 
