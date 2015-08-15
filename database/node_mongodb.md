@@ -41,37 +41,42 @@ Berikutnya akan kita lakukan operasi dasar untuk MongoDB yaitu CRUD tapi sebelum
 > person.js
 
 ```
-function PersonSchema() {};
 
-Object.defineProperty(PersonSchema.prototype, 'nama', {
+function PersonSchema(data) {
+    this.nama = data.nama;
+    this.email = data.email;
+    this.username = data.username;          
+};
+
+Object.defineProperty(PersonSchema, 'nama', {
     get: function() {
-        return this._nama;
+        return this.nama;
     },
     set: function(val){
-        this._nama = val;
+        this.nama = val;
     }
 })
 
-Object.defineProperty(PersonSchema.prototype, 'email', {
+Object.defineProperty(PersonSchema, 'email', {
     get: function() {
-        return this._email;
+        return this.email;
     },
     set: function(val){
-        this._email = val;
+        this.email = val;
     }
 })
 
-Object.defineProperty(PersonSchema.prototype, 'username', {
+Object.defineProperty(PersonSchema, 'username', {
     get: function() {
-        return this._usernama;
+        return this.username;
     },
     set: function(val){
-        this._usernama = val;
+        this.username = val;
     }
 })
-
 
 module.exports = PersonSchema;
+
 
 ```
 
