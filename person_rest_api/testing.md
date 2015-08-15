@@ -25,6 +25,6 @@ Update data bisa dilakukan dengan mudah dengan memakai PUT.
 
 ##DELETE /persons/:username
 
-
+Operasi penghapusan data hanya bisa dilakukan satu persatu melalui key `:username`.
 
 ![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-delete.png)
