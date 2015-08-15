@@ -56,4 +56,13 @@ Sebelum kita lanjutkan ke koneksi Node.js dan MongoDB, perlu di ingat beberapa k
 
 ###Document
 
-**Document** adalah data yang disimpan di database NoSQL dan di definisikan oleh yang namanya *Schema*. Sebelumnya di katakan bahwa NoSQL menyimpan data yang *schema-less*, memang benar tapi karena 
+**Document** adalah data yang disimpan di database NoSQL dan di definisikan oleh yang namanya *Schema*. Sebelumnya di katakan bahwa NoSQL menyimpan data yang *schema-less*, memang benar tapi tetap untuk menyimpan suatu dokumen di database biasanya aplikasi bekerja dengan model data tertentu misalnya untuk data `Person` bisa mempunyai key value seperti berikut
+
+```
+{
+    nama: "Kebo Ijo",
+    email: "mbolang@kebo.xyz",
+    username: "obek_seloso"
+}
+
+```
