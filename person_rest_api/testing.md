@@ -1,10 +1,14 @@
 #Pengetesan
 
-Untuk menggunakan atau pengetesan API ini cara termudah adalah dengan memakai [Postman](https://www.getpostman.com/). 
+Untuk menggunakan atau pengetesan API ini cara termudah adalah dengan memakai [Postman](https://www.getpostman.com/). Demo aplikasi dapat diakses pada link berikut
+
+> [persons-api.herokuapp.com](persons-api.herokuapp.com)
+
+Tolong digunakan dengan bijak. 
 
 ##POST /persons 
 
-Untuk membuat data Person baru melalui api `/persons`
+Untuk membuat data Person baru melalui api `/persons` cukup dengan memakai request POST. 
 
 ![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-post.png)
 
