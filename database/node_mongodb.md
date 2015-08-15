@@ -27,3 +27,42 @@ MongoDB akan membuat database jika database tersebut tidak ada, seperti halnya d
     Koneksi ke MongoDB Ok!
 
 
+Berikutnya akan kita lakukan operasi dasar untuk MongoDB yaitu CRUD tapi sebelumnya kita buat *schema*  dahulu.
+
+> person.js
+
+```
+function PersonSchema() {};
+
+Object.defineProperty(PersonSchema.prototype, 'nama', {
+    get: function() {
+        return this._nama;
+    },
+    set: function(val){
+        this._nama = val;
+    }
+})
+
+Object.defineProperty(PersonSchema.prototype, 'email', {
+    get: function() {
+        return this._email;
+    },
+    set: function(val){
+        this._email = val;
+    }
+})
+
+Object.defineProperty(PersonSchema.prototype, 'username', {
+    get: function() {
+        return this._usernama;
+    },
+    set: function(val){
+        this._usernama = val;
+    }
+})
+
+
+module.exports = PersonSchema;
+```
+
+
