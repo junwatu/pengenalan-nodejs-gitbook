@@ -61,7 +61,7 @@ Sebelum kita lanjutkan ke koneksi Node.js dan MongoDB, perlu di ingat beberapa k
 
 ###Schema
 
-Sebelumnya di katakan bahwa NoSQL menyimpan data yang *schema-less*, memang benar tapi tetap untuk menyimpan suatu dokumen di database biasanya aplikasi bekerja dengan model data tertentu misalnya untuk data `Person` bisa mempunyai key value seperti berikut
+Sebelumnya di katakan bahwa NoSQL menyimpan data yang *schema-less*, memang benar tapi tetap untuk menyimpan suatu dokumen di database biasanya aplikasi bekerja dengan model data tertentu misalnya untuk data `Person` bisa mempunyai *key - value* seperti berikut
 
 ```
 {
