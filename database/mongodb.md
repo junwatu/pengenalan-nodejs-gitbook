@@ -46,12 +46,14 @@ Type "it" for more
 
 ```
 
-Untuk lebih jelasnya jika anda tertarik untuk bermain main dengan terminal MongoDB silahkan kunjungi [dokumentasinya](https://docs.mongodb.org/getting-started/shell/).
+Untuk lebih jelasnya jika anda tertarik untuk bermain main dengan terminal MongoDB silahkan kunjungi [dokumentasinya](https://docs.mongodb.org/getting-started/shell/). 
 
 Sebelum kita lanjutkan ke koneksi Node.js dan MongoDB, perlu di ingat beberapa konsep penting dari MongoDB 
 
-##Collection
+###Collection
 
+**Collection** adalah kumpulan dari **document**.
 
+###Document
 
-
+**Document** adalah data yang disimpan di database NoSQL dan di definisikan oleh yang namanya *Schema*. Sebelumnya di katakan bahwan NoSQL menyimpan data yang *schema-less*, memang benar 
