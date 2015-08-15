@@ -15,7 +15,7 @@ var MONGODB_URL = 'mongodb://localhost:27017/sample';
 
 MongoClient.connect(MONGODB_URL, function(err, db){
     err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
-    db.close()
+    db.close();
 });
 
 ```
