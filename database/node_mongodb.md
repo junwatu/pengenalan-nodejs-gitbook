@@ -54,4 +54,4 @@ module.exports = PersonSchema;
 
 ```
 
-*Schema* diatas merupakan object JavaScript biasa dan tanpa validasi ataupun fitur lainnya sehingga 
+*Schema* diatas merupakan object JavaScript biasa, tanpa validasi ataupun fitur lainnya sehingga 
