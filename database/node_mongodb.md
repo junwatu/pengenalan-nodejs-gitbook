@@ -27,6 +27,7 @@ MongoDB akan membuat database jika database tersebut tidak ada, seperti halnya d
 
 ```
 mongodb://<username>:<password>@<localhost>:<port>/<database>
+
 ```
 
 
@@ -52,3 +53,4 @@ module.exports = PersonSchema;
 
 
 ```
+
