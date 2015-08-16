@@ -58,6 +58,10 @@ module.exports = PersonSchema;
 
 ##Insert 
 
+Drive MongoDB untuk Node.js menyediakan metode `insertOne()` untuk memasukkan satau data ke database. Contohnya seperti berikut
+
+> app.js
+
 ```
 var PersonSchema = require('./person.js');
 var MongoClient = require('mongodb').MongoClient;
