@@ -56,4 +56,30 @@ module.exports = PersonSchema;
 
 *Schema* diatas merupakan model data sederhana berupa object JavaScript tanpa *built-in type casting* ataupun validasi. Jika anda membutuhkan pemodelan data yang rumit lebih baik memakai pustaka ODM (Object Data Model) seperti [Mongoose](http://mongoosejs.com/).
 
+##Insert 
 
+```
+var PersonSchema = require('./person.js');
+var MongoClient = require('mongodb').MongoClient;
+var MONGODB_URL = 'mongodb://localhost:27017/sample';
+
+var person = new PersonSchema({
+    nama: 'Kebo Ijo',
+    email: 'kebo@ijo.xyz',
+    username: 'obek_rebo'
+});
+
+MongoClient.connect(MONGODB_URL, function(err, db){
+    err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
+    db.collection('persons').insertOne(person, function(err, result){
+        if(err){
+           console.log(err);
+        } else {
+           console.log(result);
+        }
+        db.close();  
+    })
+});
+
+
+```
