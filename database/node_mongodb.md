@@ -59,7 +59,7 @@ module.exports = PersonSchema;
 
 ##Insert 
 
-Driver MongoDB untuk Node.js menyediakan metode `insertOne()` untuk memasukkan satu data ke database. Contohnya seperti berikut
+Driver MongoDB untuk Node.js telah menyediakan metode `insertOne()` untuk memasukkan satu data ke database. Contoh penggunaannya seperti berikut
 
 > app.js
 
