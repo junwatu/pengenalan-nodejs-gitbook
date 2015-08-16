@@ -6,7 +6,7 @@ MongoDB menyediakan driver resmi untuk platform Node.js. Module npm ini tersedia
     $ npm install --save mongodb
 
 
-Penulis mengasumsikan bahwa MongoDB sudah terinstal pada sistem. Untuk memulai koneksi adalah sangat mudah seperti script dibawah ini
+Penulis mengasumsikan bahwa MongoDB sudah terinstal dan berjalan pada sistem. Untuk memulai koneksi dapat dengan mudah dilakukan seperti script berikut ini,
 
 > app.js
 
@@ -58,7 +58,7 @@ module.exports = PersonSchema;
 
 ##Insert 
 
-Drive MongoDB untuk Node.js menyediakan metode `insertOne()` untuk memasukkan satau data ke database. Contohnya seperti berikut
+Drive MongoDB untuk Node.js menyediakan metode `insertOne()` untuk memasukkan satu data ke database. Contohnya seperti berikut
 
 > app.js
 
