@@ -54,4 +54,4 @@ module.exports = PersonSchema;
 
 ```
 
-*Schema* diatas merupakan model data sederhana berupa object JavaScript. 
+*Schema* diatas merupakan model data sederhana berupa object JavaScript tanpa *built-in type casting* ataupun validasi. 
