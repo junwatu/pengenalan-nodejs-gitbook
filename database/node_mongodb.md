@@ -54,4 +54,6 @@ module.exports = PersonSchema;
 
 ```
 
-*Schema* diatas merupakan model data sederhana berupa object JavaScript tanpa *built-in type casting* ataupun validasi. 
+*Schema* diatas merupakan model data sederhana berupa object JavaScript tanpa *built-in type casting* ataupun validasi. Jika anda membutuhkan pemodelan data yang rumit lebih baik memakai pustaka ODM (Object Data Model) seperti [Mongoose](http://mongoosejs.com/).
+
+
