@@ -22,7 +22,7 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 ```
 
 
-MongoDB akan membuat database jika database tersebut tidak ada, seperti halnya dengan database `sample` pada kode diatas. Bentuk URI untuk koneksi ke MongoDB adalah seperti ini
+MongoDB akan membuat database baru jika database tersebut tidak ada, seperti halnya dengan database `sample` pada kode diatas karena sebelumnya database ini tidak ada maka secara otomatis MongoDB akan membuatnya. Bentuk umum URI untuk koneksi ke MongoDB adalah seperti berikut
 
 
 ```
