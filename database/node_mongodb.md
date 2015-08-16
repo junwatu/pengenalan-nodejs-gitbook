@@ -31,13 +31,14 @@ mongodb://<username>:<password>@<localhost>:<port>/<database>
 ```
 
 
-Jalankan apikasi dan jika tidak ada masalah maka pesan bahwa koneksi sukses ke MongoDB akan muncul pada terminal.
+Jalankan apikasi di terminal dan jika tidak ada masalah maka akan muncul pesan pada konsol bahwa koneksi ke MongoDB telah sukses.
+
 
     $ node app.js
     Koneksi ke MongoDB Ok!
 
 
-Berikutnya akan kita lakukan operasi dasar untuk MongoDB yaitu CRUD tapi sebelumnya kita buat *schema*  dahulu.
+Berikutnya akan kita lakukan operasi dasar untuk MongoDB yaitu CRUD tapi sebelumnya kita buat *schema*  terlebih dahulu.
 
 > person.js
 
