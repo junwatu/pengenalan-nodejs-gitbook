@@ -65,7 +65,7 @@ http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#insert
 
 ##Insert 
 
-Untuk memasukkan dokumen bisa memakai metode [insert()](http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#insert) yang bisa dipakai untuk satu atau lebih dokumen.
+Untuk memasukkan dokumen bisa memakai metode [insertOne()](http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#insertOne) untuk memasukkan satu dokumen
 
 
 > app.js
@@ -83,7 +83,7 @@ var person = new PersonSchema({
 
 MongoClient.connect(MONGODB_URL, function(err, db){
     err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
-    db.collection('persons').insert(person, function(err, result){
+    db.collection('persons').insertOne(person, function(err, result){
         if(err){
            console.log(err);
         } else {
@@ -96,8 +96,10 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 
 ```
 
-Buat dokumen baru melalui `new PersonSchema()` dan untuk memasukkan dokumen ke collection `persons` selain metode `insert()` bisa dipakai `insertOne()` untuk memasukkan satu dokumen atau `insertMany()` untuk memasukkan banyak dokumen.
+Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen dokumen tersebut ke collection `persons` anda bisa memakai metode `insertMany()`.
 
 
 ##Update
+
+Operasi update data juga cukup mudah apalgi jika anda sangat pahamn tentang MongoDB.
 
