@@ -57,6 +57,10 @@ module.exports = PersonSchema;
 
 *Schema* diatas merupakan model data sederhana yang dituliskan dalam object JavaScript dan tanpa *built-in type casting* ataupun fitur validasi. Jika anda membutuhkan pemodelan data yang lebih handal dan lebih baik, maka pakailah pustaka ODM (Object-Document Modeler) seperti [Mongoose](http://mongoosejs.com/).
 
+
+Driver Node MongoDB menyediakan API yang lengkap untuk bekerja dengan database ini. 
+
+
 ##Insert 
 
 
