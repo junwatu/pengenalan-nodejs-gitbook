@@ -59,7 +59,8 @@ module.exports = PersonSchema;
 
 ##Insert 
 
-Driver MongoDB untuk Node.js telah menyediakan metode `insertOne()` untuk memasukkan satu data ke database. Contoh penggunaannya seperti berikut
+
+
 
 > app.js
 
@@ -76,7 +77,7 @@ var person = new PersonSchema({
 
 MongoClient.connect(MONGODB_URL, function(err, db){
     err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
-    db.collection('persons').insertOne(person, function(err, result){
+    db.collection('persons').insert(person, function(err, result){
         if(err){
            console.log(err);
         } else {
@@ -89,5 +90,5 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 
 ```
 
-Buat dokumen baru melalui `new PersonSchema()` dan untuk memasukkan dokumen ke collection `persons` bisa memakai `inserOne()` ataupun `insertMany()`
+Buat dokumen baru melalui `new PersonSchema()` dan untuk memasukkan dokumen ke collection `persons` bisa memakai `insert()` ataupun `insertOne()` ataupun `insertMany()` untuk banyak dokumen.
 
