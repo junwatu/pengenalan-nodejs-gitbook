@@ -89,5 +89,5 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 
 ```
 
-Buat dokumen baru melalui `new PersonSchema()` untuk memasukkan dokumen ke collection `persons` 
+Buat dokumen baru melalui `new PersonSchema()` dan untuk memasukkan dokumen ke collection `persons` bisa memakai `inserOne()` ataupun `insertMany()`
 
