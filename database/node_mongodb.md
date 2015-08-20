@@ -101,5 +101,5 @@ Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen dokumen tersebut ke
 
 ##Update
 
-Operasi update data juga cukup mudah apalgi jika anda sangat pahamn tentang MongoDB.
+Operasi update data juga cukup mudah apalagi jika anda sangat pahamn tentang MongoDB.
 
