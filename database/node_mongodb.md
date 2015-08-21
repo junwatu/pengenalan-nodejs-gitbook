@@ -132,6 +132,7 @@ MongoClient.connect(MONGODB_URL, function(err, db){
         } else {
       	   console.log('Simpan data person ok!');
           
+           // update data
            var personUpdate = {
                nama: 'Sukat Tandika'
            }
