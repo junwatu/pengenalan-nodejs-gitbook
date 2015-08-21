@@ -71,6 +71,15 @@ Untuk memasukkan dokumen bisa memakai metode [insertOne()](http://mongodb.github
 > app.js
 
 ```
+/**
+* Balajar Node - MongoDB
+*
+*
+* MIT
+* Equan Pr. 2015
+*/
+
+
 var PersonSchema = require('./person.js');
 var MongoClient = require('mongodb').MongoClient;
 var MONGODB_URL = 'mongodb://localhost:27017/sample';
@@ -102,4 +111,45 @@ Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen dokumen tersebut ke
 ##Update
 
 Operasi update data juga cukup mudah apalagi jika anda sangat pahamn tentang MongoDB. Untuk meng-update data bisa dilakukan melalui metode `updateOne()`, `updateMany()` ataupun `bulkWrite()`
+
+> app.js
+
+```
+/**
+* Balajar Node - MongoDB
+*
+*
+* MIT
+* Equan Pr. 2015
+*/
+var PersonSchema = require('./person.js');
+var MongoClient = require('mongodb').MongoClient;
+var MONGODB_URL = 'mongodb://localhost:27017/sample';
+
+var person = new PersonSchema({
+    nama: 'Kebo Ijo',
+    email: 'kebo@ijo.xyz',
+    username: 'obek_rebo'
+});
+
+MongoClient.connect(MONGODB_URL, function(err, db){
+    err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
+    db.collection('persons').insert(person, function(err, result){
+        if(err){
+      	   console.log(err);
+        } else {
+      	   console.log('Simpan data person ok!');
+           //update data
+           db.collection('persons').updateOne({nama: person.nama}, {nama: 'Sukat Tandika'}, function(err, result){
+               if(err) {
+                 console.log(err);
+               } else {
+                 console.log('Data person berhasil dimodifikasi!');
+               }
+               db.close();
+           })
+        }
+    })
+});
+```
 
