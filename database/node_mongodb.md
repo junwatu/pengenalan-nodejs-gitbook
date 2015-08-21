@@ -156,7 +156,7 @@ updateOne(filter, update, options, callback)
 
 ```
 
-dari beberapa options yang terpenting adalah key `upsert` yaitu* update insert*, jika option ini diberikan maka jika data yang diupdate tidak ada maka MongoDB akan membuat data baru.
+dari beberapa options yang terpenting adalah key `upsert` yaitu* update insert* dan jika option ini diberikan maka jika data yang akan di-update tidak ada maka MongoDB secara otomatis akan membuat data yang baru.
 
 
 
