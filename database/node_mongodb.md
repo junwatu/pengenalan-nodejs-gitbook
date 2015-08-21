@@ -103,7 +103,7 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 
 
 ```
-Secara otomatis operasi insert ini akan menghasilkan `_id` unik berupaa `ObjectId`.  
+Secara otomatis operasi insert ini akan menghasilkan `_id` unik berupa `ObjectId`.   
 
 Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen dokumen tersebut ke collection `persons` anda bisa memakai metode `insertMany()`.
 
