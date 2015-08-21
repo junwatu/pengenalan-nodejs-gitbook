@@ -131,8 +131,11 @@ MongoClient.connect(MONGODB_URL, function(err, db){
       	   console.log(err);
         } else {
       	   console.log('Simpan data person ok!');
-           //update data
-           db.collection('persons').updateOne({nama: person.nama}, {nama: 'Sukat Tandika'}, function(err, result){
+          
+           var personUpdate = {
+               nama: 'Sukat Tandika'
+           }
+           db.collection('persons').updateOne({nama: person.nama}, personUpdate, function(err, result){
                if(err) {
                  console.log(err);
                } else {
