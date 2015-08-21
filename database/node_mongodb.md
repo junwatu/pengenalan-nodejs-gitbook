@@ -114,13 +114,6 @@ Operasi update data juga cukup mudah apalagi jika anda sangat pahamn tentang Mon
 > app.js
 
 ```
-/**
-* Balajar Node - MongoDB
-*
-*
-* MIT
-* Equan Pr. 2015
-*/
 var PersonSchema = require('./person.js');
 var MongoClient = require('mongodb').MongoClient;
 var MONGODB_URL = 'mongodb://localhost:27017/sample';
