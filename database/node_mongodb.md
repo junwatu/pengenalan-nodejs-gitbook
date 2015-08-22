@@ -127,7 +127,7 @@ Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen dokumen tersebut ke
 
 ##Update
 
-Operasi update data juga cukup mudah apalagi jika anda sangat pahamn tentang MongoDB. Untuk meng-update data bisa dilakukan melalui metode `updateOne()`, `updateMany()` ataupun `bulkWrite()`
+Operasi update data juga cukup mudah apalagi jika anda sangat pahamn tentang MongoDB. Untuk meng-update data bisa dilakukan melalui metode `updateOne()` atau  `updateMany()`.
 
 > app.js
 
