@@ -194,4 +194,21 @@ dari beberapa options yang terpenting adalah key `upsert` yaitu* update insert* 
 
 ##Query
 
+```
+function findPerson(filter, db, callback){
+  var cursor = db.collection('persons').find(filter);
+  cursor.each(function(err, docResult){
+    if(err){
+      callback(err, null);
+    } else {
+      if(docResult != null) {
+        console.log(docResult);
+        callback(null, docResult);
+      } else {
+        callback(null, 'empty!');
+      }
+    }
+  })
+}
 
+```
