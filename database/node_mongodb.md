@@ -106,10 +106,17 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 Secara otomatis operasi insert ini akan menghasilkan *primary key* `_id` yang unik yaitu berupa `ObjectId`. Yang membedakan `_id` ini dengan id pada database yang lain adalah dengan `ObjectId` bisa didapatkan kapan data ini dimasukkan melalui pemakaian metode `getTimestamp()`.
 
 ```
-var ObjectId = require('mongodb').ObjectID;
+$ mongo
+MongoDB shell version: 2.6.9
+connecting to: test
 
-var _id = ObjectId();
+>  _id = ObjectId()
+ObjectId("55d81f48bb934a51424dbd37")
 
+> ObjectId("55d81f48bb934a51424dbd37").getTimestamp();
+ISODate("2015-08-22T07:05:44Z")
+
+> 
 
 
 ```
