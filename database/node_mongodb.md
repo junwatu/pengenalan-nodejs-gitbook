@@ -205,7 +205,7 @@ MongoClient.connect(MONGODB_URL, function(err, db){
         if(!err){
             console.log(doc);
         } else {
-                                   console.log(err);
+            console.log(err);
         }
 
         db.close();
