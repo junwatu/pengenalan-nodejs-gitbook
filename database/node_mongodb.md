@@ -201,6 +201,15 @@ Query data pada database MongoDB dapat dengan mudah dilakukan dengan memakai met
 MongoClient.connect(MONGODB_URL, function(err, db){
     err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
     
+    findPerson({nama: 'Morbid Angel'}, db, function(err, doc){
+        if(!err){
+            console.log(doc);
+        } else {
+                                   console.log(err);
+        }
+
+        db.close();
+    });
 });
 
 
