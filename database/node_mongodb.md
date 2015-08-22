@@ -103,7 +103,7 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 
 
 ```
-Secara otomatis operasi insert ini akan menghasilkan *primary key* `_id` yang unik yaitu berupa `ObjectId`. Yang membedakan `_id` ini dengan id pada database yang lain adalah dengan `ObjectId` bisa didapatkan kapan data ini dimasukkan melalui metode `getTimestamp()`.
+Secara otomatis operasi insert ini akan menghasilkan *primary key* `_id` yang unik yaitu berupa `ObjectId`. Yang membedakan `_id` ini dengan id pada database yang lain adalah dengan `ObjectId` bisa didapatkan kapan data ini dimasukkan melalui pemakaian metode `getTimestamp()`.
 
 
 Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen dokumen tersebut ke collection `persons` anda bisa memakai metode `insertMany()`.
