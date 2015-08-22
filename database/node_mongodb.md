@@ -198,6 +198,14 @@ dari beberapa options yang terpenting adalah key `upsert` yaitu* update insert* 
 Query data pada database MongoDB dapat dengan mudah dilakukan dengan memakai metode `find()`, sebagai contoh untuk menemukan data `person` pada collection `persons`
 
 ```
+MongoClient.connect(MONGODB_URL, function(err, db){
+    err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
+    
+});
+
+
+
+
 function findPerson(filter, db, callback){
   var cursor = db.collection('persons').find(filter);
   cursor.each(function(err, docResult){
