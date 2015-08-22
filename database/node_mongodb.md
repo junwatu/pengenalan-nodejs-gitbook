@@ -144,7 +144,7 @@ var person = new PersonSchema({
 
 MongoClient.connect(MONGODB_URL, function(err, db){
     err ? console.log(err): console.log('Koneksi ke MongoDB Ok!');
-    db.collection('persons').insert(person, function(err, result){
+    db.collection('persons').insertOne(person, function(err, result){
         if(err){
       	   console.log(err);
         } else {
