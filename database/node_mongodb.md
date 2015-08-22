@@ -194,6 +194,9 @@ dari beberapa options yang terpenting adalah key `upsert` yaitu* update insert* 
 
 ##Query
 
+
+
+
 ```
 function findPerson(filter, db, callback){
   var cursor = db.collection('persons').find(filter);
