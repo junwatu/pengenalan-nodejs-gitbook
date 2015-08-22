@@ -195,7 +195,7 @@ dari beberapa options yang terpenting adalah key `upsert` yaitu* update insert* 
 ##Query
 
 
-Query data pada database MongoDB dapat dengan mudah dilakukan dengan memakai metode `find()`, sebagai contoh untk menemukan data `person` 
+Query data pada database MongoDB dapat dengan mudah dilakukan dengan memakai metode `find()`, sebagai contoh untuk menemukan data `person` 
 
 ```
 function findPerson(filter, db, callback){
