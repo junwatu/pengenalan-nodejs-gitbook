@@ -213,8 +213,6 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 });
 
 
-
-
 function findPerson(filter, db, callback){
   var cursor = db.collection('persons').find(filter);
   cursor.each(function(err, docResult){
