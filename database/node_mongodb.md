@@ -174,7 +174,7 @@ updateOne(filter, update, options, callback)
 
 ```
 
-Untuk data update anda bisa memakai operator seperti `$set`
+Untuk data update anda bisa memakai operator seperti `$set` contohnya seperti berikut
 
 
 ```
