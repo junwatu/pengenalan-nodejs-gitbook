@@ -17,6 +17,12 @@ Clone kode sumber melalui git dan instal depedensi paket melalui npm
     $ npm install
 
 
+Pastikan database MongoDB sudah berjalan pada sistem anda jika menggunakan `service` **systemd** pada linux anda bisa menjalankannya dengan perintah berikut
+
+```
+$ sudo service mongod start
+```
+
 ##Kode
 
 Untuk lingkungan produksi ada baiknya untuk memecah file kode ke bagian yang lebih kecil supaya lebih mudah dalam hal *maintenance*. Untuk kemudahan dan kesederhanaan aplikasi ini maka kode utama ditulis  dalam satu file.
