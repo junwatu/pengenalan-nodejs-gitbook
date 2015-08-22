@@ -208,6 +208,8 @@ MongoClient.connect(MONGODB_URL, function(err, db){
             }
             db.close();
         });
+    } else {
+        console.log(err);
     }
 });
 
