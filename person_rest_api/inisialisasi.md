@@ -1,6 +1,6 @@
 # Cara Kerja
 
-Cara kerja dari aplikasi Person REST ini cukup mudah seperti halnya aplikasi web lainnya. Hanya saja untuk antar muka dengan pengguna tidak melalui antar muka web tetapi melalui URL.
+Cara kerja dari aplikasi Person REST ini cukup mudah seperti halnya aplikasi web lainnya. Hanya saja untuk antar muka dengan pengguna tidak melalui antar muka web.
 
 Pada dasarnya aplikasi ini akan menyimpan data ke database MongoDB dan untuk operasi CRUD (*Create, Read, Update, Delete*) akan dilakukan melalui API seperti yang di tunjukkan pada bagian sebelumnya. 
 
