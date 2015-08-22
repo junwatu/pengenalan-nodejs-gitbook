@@ -11,6 +11,6 @@ Diagram kerja aplikasi Person REST digambarkan pada diagram dibawah ini
 
 
 
-Pengetesan operasi CRUD untuk aplikasi bisa dengan menggunakan bantuan alat *Command Line Interface* seperti cURL atau HTTPie ataupun yang lebih ramah seperti Postman dan bisa juga anda membangun antarmuka web dengan memakai API yang disediakan oleh server Person ini.
+Pengetesan operasi CRUD untuk aplikasi bisa dengan menggunakan bantuan alat *Command Line Interface* seperti cURL atau HTTPie ataupun tool yang lebih ramah seperti Postman dan bisa juga anda membangun antarmuka web dengan memakai API yang disediakan oleh server Person ini.
 
 Contoh pengetesan untuk aplikasi Person REST ini bisa lihat pada sub-bab [**Pengetesan**](./testing.md).
