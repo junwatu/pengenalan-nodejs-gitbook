@@ -176,6 +176,19 @@ updateOne(filter, update, options, callback)
 
 Untuk data update anda bisa memakai operator seperti `$set`
 
+
+```
+db.collection('persons').updateOne({nama: person.nama}, {$set:{nama: 'Angel'}}, function(err, result){
+    if(err) {
+        console.log(err);
+    } else {
+        console.log('Data person berhasil dimodifikasi!');
+    }
+    
+    db.close();
+})
+```
+
 dari beberapa options yang terpenting adalah key `upsert` yaitu* update insert* dan jika option ini diberikan maka jika data yang akan di-update tidak ada maka MongoDB secara otomatis akan membuat data yang baru. Untuk lebih jelasnya anda bisa melihat [dokumentasi dari API `updateOne()`](http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#updateOne).
 
 
