@@ -2,7 +2,7 @@
 
 Cara kerja dari aplikasi Person REST ini cukup mudah. Hanya saja untuk antar muka dengan pengguna tidak melalui antar muka web seperti halnya kita mengakses halaman Facebook misalnya, karena secara umum aplikasi REST fungsinya lebih ke memberikan layanan data mentah sehingga developer bertanggung jawab penuh untuk apa data-data tersebut digunakan, apakah akan ditampilkan ke browser web atau digunakan pada aplikasi mobile android atau akan digunakan untuk mengaktifkan device elektronik seperti Arduino, Raspberry Pi dll.  
 
-Untuk aplikasi Person REST ini, data disimpan di database MongoDB melalui operasi CRUD (*Create, Read, Update, Delete*) dilakukan melalui *request* API. 
+Untuk aplikasi Person REST ini, data disimpan di database MongoDB melalui operasi CRUD (*Create, Read, Update, Delete*) yang dapat diakses melalui *request* API. 
 
 Diagram kerja aplikasi Person REST digambarkan pada diagram dibawah ini
 
