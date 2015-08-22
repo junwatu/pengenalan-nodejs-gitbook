@@ -233,6 +233,6 @@ function findPerson(filter, db, callback){
 ```
 
 Dengan metode `find()` anda bisa memakai operator query seperti `$lt`, `$gt`, operator kondisi `AND`, `OR` dll. Untuk lebih lengkapnya silahkan lihat [dokumentasi query](https://docs.mongodb.org/getting-started/node/query/) dari driver node MongoDB.
-
+ 
 ##Delete
 
