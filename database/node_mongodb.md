@@ -122,7 +122,7 @@ ISODate("2015-08-22T07:05:44Z")
 ```
 
 
-Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen dokumen tersebut ke collection `persons` anda bisa memakai metode `insertMany()`.
+Jika anda mempunyai banyak dokumen, untuk memasukkan dokumen-dokumen tersebut ke collection `persons` anda bisa memakai metode `insertMany()`.
 
 
 ##Update
