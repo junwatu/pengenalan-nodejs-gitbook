@@ -232,3 +232,4 @@ function findPerson(filter, db, callback){
 
 ```
 
+#Delete
