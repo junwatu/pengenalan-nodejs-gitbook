@@ -217,16 +217,16 @@ MongoClient.connect(MONGODB_URL, function(err, db){
 function findPerson(filter, db, callback){
   var cursor = db.collection('persons').find(filter);
   cursor.each(function(err, docResult){
-    if(err){
-      callback(err, null);
-    } else {
-      if(docResult != null) {
-        console.log(docResult);
-        callback(null, docResult);
+      if(err){
+          callback(err, null);
       } else {
-        callback(null, 'empty!');
+          if(docResult != null) {
+              console.log(docResult);
+              callback(null, docResult);
+          } else {
+              callback(null, 'empty!');
+        }
       }
-    }
   })
 }
 
