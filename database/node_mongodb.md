@@ -242,7 +242,7 @@ Untuk menghapus data anda bisa menggunakan fungsi `deleteOne()` atau `deleteMany
 function deleteAllPerson(db, callback){
     db.collection('persons').deleteMany({}, function(err, rec){
         if(!err) {
-            callback(null, rec.result.n)
+            callback(null, rec.result.n);
         } else {
             callback(err, null);
         }
