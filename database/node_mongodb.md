@@ -236,4 +236,4 @@ Dengan metode `find()` anda bisa memakai operator query seperti `$lt`, `$gt`, op
  
 ##Delete
 
-Untuk menghapus data anda bisa menggunakan fungsi
+Untuk menghapus data anda bisa menggunakan fungsi `deleteOne()` atau `deleteMany()`
