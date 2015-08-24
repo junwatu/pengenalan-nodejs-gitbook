@@ -239,7 +239,7 @@ Dengan metode `find()` anda bisa memakai operator query seperti `$lt`, `$gt`, op
 Untuk menghapus data anda bisa menggunakan fungsi `deleteOne()` atau `deleteMany()`
 
 ```
-function deletePerson(){
+function deletePerson(filter, db, callback){
 
 }
 
