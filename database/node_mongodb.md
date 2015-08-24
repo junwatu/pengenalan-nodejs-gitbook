@@ -244,7 +244,7 @@ function deleteAllPerson(db, callback){
         if(!err) {
             callback(null, rec.result.n)
         } else {
-            callback(err, null)
+            callback(err, null);
         }
     })
 }
