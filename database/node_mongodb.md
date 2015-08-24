@@ -240,7 +240,7 @@ Untuk menghapus data anda bisa menggunakan fungsi `deleteOne()` atau `deleteMany
 
 ```
 function deleteAllPerson(db, callback){
-    db.collection('persons')
+    db.collection('persons').deleteMany()
 }
 
 ```
