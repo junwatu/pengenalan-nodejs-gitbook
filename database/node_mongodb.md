@@ -236,7 +236,7 @@ Dengan metode `find()` anda bisa memakai operator query seperti `$lt`, `$gt`, op
  
 ##Delete
 
-Untuk menghapus data anda bisa menggunakan fungsi `deleteOne()` atau `deleteMany()`
+Untuk menghapus data anda bisa menggunakan fungsi `deleteOne()` atau `deleteMany()`. Misalnya untuk menghapus semua data pada collection `persons`
 
 ```
 function deleteAllPerson(db, callback){
