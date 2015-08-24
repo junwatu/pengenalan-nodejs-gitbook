@@ -251,6 +251,17 @@ function deleteAllPerson(db, callback){
 
 ```
 
+atau jika ingin menhapus satu data pada collection `person`
 
 
-
+```
+fucntion deletePerson(filter, db, callback){
+    db.collection('persons').deleteOne(filter, function(err, rec){
+        if(!err) {
+            callback(null, rec.result.n);
+        } else {
+            callback(err, null);
+        }
+    })
+}
+```
