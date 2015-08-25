@@ -18,7 +18,7 @@ Untuk membuat data Person baru melalui api `/persons` cukup dengan memakai reque
 
 Mengambil data dengan mengakses API `/persons` yang akan mengembalikan semua data yang telah tersimpan sebelumnya. 
 
-![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-get.png)
+![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/master/images/person-rest-get.png)
 
 
 ##PUT /persons/:username
