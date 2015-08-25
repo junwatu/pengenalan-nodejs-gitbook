@@ -30,6 +30,7 @@
        * [Node MySQL](database/node_mysql.md)
    * [MongoDB](database/mongodb.md)
        * [Node MongoDB](database/node_mongodb.md)
+       * Mongoose
 * [Testing](testing/README.md)
    * [Mocha](testing/mocha_-_chain_-_sinon.md)
 * [To Data URI](todatauri/todatauri.md)
