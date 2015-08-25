@@ -25,7 +25,7 @@ Mengambil data dengan mengakses API `/persons` yang akan mengembalikan semua dat
 
 Update data bisa dilakukan dengan mudah dengan memakai PUT.
 
-![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/develop/images/person-rest-update.png)
+![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/master/images/person-rest-update.png)
 
 
 ##DELETE /persons/:username
