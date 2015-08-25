@@ -266,5 +266,5 @@ fucntion deletePerson(filter, db, callback){
 }
 
 ```
-Dua fungsi ini bisa anda lihat secara lengkap pada [dokumentasi](http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#deleteMany) APi MongoDB.
+Dua fungsi ini bisa anda lihat secara lengkap pada [dokumentasi](http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#deleteMany) API MongoDB.
 
