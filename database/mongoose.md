@@ -2,5 +2,5 @@
 
 (TODO)
 
-Contoh project [Person REST API](person_rest_api/README.md) 
+Contoh project [Person REST API](/person_rest_api/README.md) 
 
