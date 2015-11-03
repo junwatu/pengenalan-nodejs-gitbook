@@ -18,7 +18,7 @@ Syarat yang dibutuhkan adalah pembaca setidaknya pernah atau sudah bisa memakai 
 
 Berdasarkan pada ebook di <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/idjs/belajar-nodejs" rel="dct:source">https://github.com/idjs/belajar-nodejs</a>.
 
-Untuk pertanyaan, kesalahan ketik atau permintaan bisa menghubungi penulis melalui email byte[at]equan.me atau melalui <a rel="github issue" href="https://github.com/junwatu/pengenalan-nodejs-gitbook/issues">Github</a>.
+Untuk pertanyaan, kesalahan ketik atau permintaan bisa menghubungi penulis melalui email equan.p[at]gmail.me atau melalui <a rel="github issue" href="https://github.com/junwatu/pengenalan-nodejs-gitbook/issues">Github</a>.
 
 
 
