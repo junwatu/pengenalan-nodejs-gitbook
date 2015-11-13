@@ -1,1 +1,6 @@
-{}
+{
+    "gitbook": ">=2.0.0",
+    "title": "Pengenalan Node.js",
+    "description": "Pengenalan Node.js melalui aplikasi web",
+    "language": "id"
+}
