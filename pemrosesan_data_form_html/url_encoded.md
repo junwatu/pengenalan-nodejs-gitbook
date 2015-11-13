@@ -74,11 +74,11 @@ Untuk mengetest `GET` dan `POST` bisa dilakukan melalui curl, browser atau melal
 
 ##GET
 
-![GET form fields](https://raw.githubusercontent.com/idjs/belajar-nodejs/gh-pages/images/get-form.png)
+![GET form fields](/images/get-form.png)
 
 ##POST
 
-![POST](https://raw.githubusercontent.com/idjs/belajar-nodejs/gh-pages/images/post-urlencoded-data.png)
+![POST](/images/post-urlencoded-data.png)
 
 
 module `querystring` dari Node.js berfungsi untuk mengubah url encoded string menjadi objek JavaScript. Contohnya

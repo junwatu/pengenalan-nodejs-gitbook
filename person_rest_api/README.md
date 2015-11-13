@@ -11,5 +11,5 @@ Aplikasi REST memakai metode HTTP seperti POST, PUT, GET dan DELETE untuk menamb
 Berikut susunan API yang akan digunakan dalam contoh aplikasi ini. Contoh API ini mungkin tidak mengikuti *best practice* tapi penulis rasa sudah cukup untuk menggambarkan bagaimana menyusun aplikasi REST secara sederhana.
 
 
-![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/master/images/persons-rest-api.png)
+![Person Rest API](/images/persons-rest-api.png)
 

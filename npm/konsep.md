@@ -33,7 +33,7 @@ Untuk membuat paket npm caranya cukup mudah. Berikut alur umum untuk membuat pak
 
 
 
-![alur pembuatan npm](https://raw.githubusercontent.com/idjs/belajar-nodejs/gh-pages/images/npm-flow.png)
+![alur pembuatan npm](/images/npm-flow.png)
 
 Secara garis besar proses pembuatan paket npm menurut alur diatas akan dijelaskan sebagai berikut
 

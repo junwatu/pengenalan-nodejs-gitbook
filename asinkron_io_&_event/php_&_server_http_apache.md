@@ -23,7 +23,7 @@ Sepertinya permasalahan I/O yang terblok terselesaikan dengan pendekatan metode 
 Berikut contoh benchmark antara web server Apache dan Nginx (server HTTP seperti halnya Apache hanya saja Nginx memakai sistem asinkron I/O dan event yang mirip Node.js). Gambar ini diambil dari [goo.gl/pvLL4](http://goo.gl/pvLL4)
 
 
-![apache-vs-nginx-reqs-sec](https://raw.github.com/idjs/belajar-nodejs/gh-pages/images/nginx-apache-reqs-sec.png)
+![apache-vs-nginx-reqs-sec](/images/nginx-apache-reqs-sec.png)
 
 
 Bisa dilihat bahwa Nginx bisa menangani request yang jauh lebih banyak daripada web server Apache pada jumlah koneksi bersama yang semakin naik.

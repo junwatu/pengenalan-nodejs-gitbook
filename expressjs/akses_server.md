@@ -18,7 +18,7 @@ Untuk mengakses file yang lain format URL adalah
 
 misalnya untuk mengakses file `img.jpg`
 
-![akses file di server](https://raw.githubusercontent.com/idjs/belajar-nodejs/gh-pages/images/akses-file-di-server.png)
+![akses file di server](/images/akses-file-di-server.png)
 
 
 
