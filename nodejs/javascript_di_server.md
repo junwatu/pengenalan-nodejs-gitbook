@@ -4,7 +4,7 @@ Tak terelakkan bahwa Javascript merupakan bahasa pemrograman yang paling populer
 
 Sekarang dengan berjalannya Javascript di server lalu apa keuntungan yang anda peroleh dengan mempelajari Node.js, kurang lebih seperti ini :
 
-+ Pengembang hanya memakai satu bahasa untuk mengembangkan aplikasi lengkap client & server sehingga mengurangi 'Learning Curve' untuk mempelajari bahasa server yang lain.
++ Pengembang hanya memakai satu bahasa untuk mengembangkan aplikasi lengkap client & server sehingga mengurangi *Learning Curve* untuk mempelajari bahasa server yang lain.
 
 + Sharing kode antara client dan server atau istilahnya code reuse.
 
