@@ -11,7 +11,7 @@ Demo aplikasi berada pada link berikut,
 
 Untuk membuat data Person baru melalui api `/persons` cukup dengan memakai request POST. 
 
-![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/master/images/person-rest-post.png)
+![](/images/person-rest-post.png)
 
 
 ##GET /persons

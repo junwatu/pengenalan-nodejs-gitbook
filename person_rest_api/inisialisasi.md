@@ -7,7 +7,7 @@ Untuk aplikasi Person REST ini, data disimpan di database MongoDB melalui operas
 Diagram kerja aplikasi Person REST digambarkan pada diagram dibawah ini
 
 
-![](https://raw.githubusercontent.com/junwatu/pengenalan-nodejs-gitbook/master/images/persons-rest-diagram.png)
+![](/images/persons-rest-diagram.png)
 
 
 
