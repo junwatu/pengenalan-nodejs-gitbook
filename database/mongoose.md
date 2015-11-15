@@ -80,4 +80,4 @@ Cukup mudah bukan dan memang pustaka ini bertujuan untuk memudahkan developer da
 
 ##Projek 
 
-Bagi anda yang sudah mengerti gambaran umum dari pustaka Mongoose ini silahkan mengutak atik contoh projek sederhana yang memakai framework ExpressJS dan Mongoose, [Person REST API](/person_rest_api/README.md).
+Bagi anda yang sudah mengerti gambaran umum dari pustaka Mongoose ini silahkan mengutak atik contoh projek sederhana yang memakai framework ExpressJS dan Mongoose, [Person REST API](../person_rest_api/README.md).
