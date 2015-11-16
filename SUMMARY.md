@@ -32,7 +32,7 @@
        * [Node MongoDB](database/node_mongodb.md)
        * [Mongoose](database/mongoose.md)
 * [Testing](testing/README.md)
-   * [Mocha](testing/mocha_-_chain_-_sinon.md)
+   * [Mocha](testing/mocha.md)
 * [To Data URI](todatauri/todatauri.md)
    * [Penggunaan](todatauri/penggunaan.md)
    * [todatauri.js](todatauri/konverter_gambar_png_ke_data_uri.md)
