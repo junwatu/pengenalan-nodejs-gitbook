@@ -70,6 +70,7 @@ Untuk melakukan pengetesan cukup dengan menginstal dan jalankan `mocha` maka sec
 
 ![](/images/testing-mocha.png)
 
+Sebenarnya banyak yang bisa dijelaskan tentang pengetesan dan sudah banyak resource online diluar sana yang membahas tentang ini tapi yang perlu anda ingat adalah metode pengetesan apapun yang anda gunakan pastikan pengetesan dimasukkan dalam alur kerja dalam pengembangan perangkat lunak yang sedang anda kerjakan. 
 
 ##Automasi
 
