@@ -1,6 +1,6 @@
-#Mocha
+#Pengetesan REST
 
-Mocha termasuk pustaka pengetesan yang bisa dipakai secara BDD ataupun TDD. Pustaka ini secara default memakai style BDD dan metode yang selalu dipakai adalah `describe` & `it`. Kita ambil contoh server yang dibuat dengan ExpressJS. Server dibawah ini akan mengeluarkan data berupa JSON pada URL `/`.
+Kita ambil contoh server yang dibuat dengan ExpressJS. Server dibawah ini akan mengeluarkan data berupa JSON pada URL `/`.
 
 ```
 var express = require('express')
@@ -16,7 +16,7 @@ module.exports = app
 
 ``` 
 
-Lalu bagaimana cara mengetest URL `/` diatas? dengan memakai Mocha, module `assert` dan modul [Supertest](https://github.com/visionmedia/supertest) yaitu modul npm yang khusus untuk mengetest server HTTP.
+Lalu bagaimana cara mengetest URL `/` diatas? dengan memakai Mocha, module `assert` dan modul [Supertest](https://github.com/visionmedia/supertest) yaitu modul npm yang khusus untuk mengetest server HTTP. Mocha termasuk pustaka pengetesan yang bisa dipakai secara BDD ataupun TDD. Pustaka ini secara default memakai style BDD dan metode yang selalu dipakai adalah `describe` & `it`. 
 
 ```
 var mocha = require('mocha')
@@ -70,8 +70,4 @@ Untuk melakukan pengetesan cukup dengan menginstal dan jalankan `mocha` maka sec
 
 ![](/images/testing-mocha.png)
 
-Sebenarnya banyak yang bisa dijelaskan tentang pengetesan dan sudah banyak resource online diluar sana yang membahas tentang ini tapi yang perlu anda ingat adalah metode pengetesan apapun yang anda gunakan pastikan pengetesan dimasukkan dalam alur kerja dalam pengembangan perangkat lunak yang sedang anda kerjakan. 
-
-##Automasi
-
-Dalam prakteknya biasanya testing ini dilakukan secara otomatis misalnya jika anda memakai Github dalam pengembangan perangkat lunak open source maka anda bisa memakai server **Travis** yang dengan setting konfigurasi tertentu akan menjalankan pengetesan jika anda menge-*push* kode ke repository Github atau anda bisa memakai build server yang ada diluaran seperti **Jenkins**, **Bamboo**, **TeamCity** dll.
+Sebenarnya banyak yang bisa dijelaskan tentang pengetesan dan sudah banyak resource online diluar sana yang membahas tentang ini tapi yang perlu anda ingat adalah pastikan pengetesan dimasukkan dalam alur kerja dalam pengembangan perangkat lunak yang sedang anda kerjakan. 
