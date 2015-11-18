@@ -17,7 +17,7 @@ Kelemahan pengetesan ini adalah pada proses awal biasanya dibutuhkan waktu yang 
 
 ###Behavior Driven Development (BDD) 
 
-Pengetesan secara BDD memakai bahasa atau metode pengetesan yang lebih ramah yaitu dengan melakukan pengetesan dengan cara atau alur seperti **user story** sehingga pengetesan ini relatif lebih populer karena secara bahasa menjembatani atau memungkinkan kolaborasi antara developer dan klien. Ciri-ciri pustaka yang mendukung BDD seperti Mocha atau Jasmine yaitu pasti mempunyai metode pengetesan seperti `describe()` dan `it()`.
+Pengetesan secara BDD memakai bahasa atau metode pengetesan yang lebih ramah yaitu dengan melakukan pengetesan dengan cara atau alur seperti **user story** sehingga pengetesan ini relatif lebih populer karena secara bahasa menjembatani atau memungkinkan kolaborasi antara developer dan klien. Ada banyak pustaka pengetesan yang memakai BDD seperti Mocha, Jasmin, Vows dll. Sebagai gambaran contoh untuk pustaka Mocha misalnya  
 
 ```
 describe('Upload file', function(){
