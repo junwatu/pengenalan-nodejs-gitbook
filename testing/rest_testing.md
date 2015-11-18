@@ -16,7 +16,7 @@ module.exports = app
 
 ``` 
 
-Lalu bagaimana cara mengetest URL `/` diatas? dengan memakai Mocha, module `assert` dan modul [Supertest](https://github.com/visionmedia/supertest) yaitu modul npm yang khusus untuk mengetest server HTTP. Mocha termasuk pustaka pengetesan yang bisa dipakai secara BDD ataupun TDD. Pustaka ini secara default memakai style BDD dan metode yang selalu dipakai adalah `describe` & `it`. 
+Lalu bagaimana cara mengetest URL `/` diatas? dengan memakai Mocha, module `assert` dan modul [Supertest](https://github.com/visionmedia/supertest) yaitu modul npm yang khusus untuk mengetest server HTTP. Mocha termasuk pustaka pengetesan yang bisa dipakai secara BDD ataupun TDD. Pustaka ini secara default memakai style BDD dan metode yang yang biasa dipakai adalah `describe` & `it`. 
 
 ```
 var mocha = require('mocha')
