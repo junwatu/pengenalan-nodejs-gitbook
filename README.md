@@ -12,7 +12,7 @@ Ebook ini bisa anda akses didua tempat yaitu:
 
 ##Feedback
 
-Untuk pertanyaan, kesalahan ketik atau permintaan bisa menghubungi penulis melalui melalui [Github issue](https://github.com/idjs/belajar-nodejs/issues).
+Untuk pertanyaan, kesalahan ketik atau permintaan silahkan mengisi [Github issue](https://github.com/idjs/belajar-nodejs/issues).
 
 
 ##Lisensi
