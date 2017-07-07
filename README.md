@@ -8,7 +8,7 @@ Buku ini cocok bagi siapa saja yang ingin mulai belajar pemrograman di platform 
 
 Ebook ini bisa anda akses didua tempat yaitu:
 - [Github IDJS](https://idjs.github.io/belajar-nodejs) (versi online).
-- [Gitbook](https://junwatu.gitbooks.io/pengenalan-nodejs/content/) (versi online, PDF, Epub & Mobi).
+- [Gitbook](https://www.gitbook.com/book/junwatu/pengenalan-nodejs/details) (versi online, PDF, Epub & Mobi).
 
 ##Feedback
 
