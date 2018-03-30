@@ -1,4 +1,4 @@
-#Aplikasi Web Node.js
+# Aplikasi Web Node.js
 
 
 > **Note:** This book is written in Bahasa Indonesia and the main reason for that is because most of Node.js beginners in my country Indonesia is having difficulties to find Node.js resources written in my native language.
@@ -10,12 +10,12 @@ Ebook ini bisa anda akses didua tempat yaitu:
 - [Github IDJS](https://idjs.github.io/belajar-nodejs) (versi online).
 - [Gitbook](https://www.gitbook.com/book/junwatu/pengenalan-nodejs/details) (versi online, PDF, Epub & Mobi).
 
-##Feedback
+## Feedback
 
 Untuk pertanyaan, kesalahan ketik atau permintaan silahkan mengisi [Github issue](https://github.com/idjs/belajar-nodejs/issues).
 
 
-##Lisensi
+## Lisensi
 
 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Aplikasi Web Node.js</span> oleh <a xmlns:cc="http://creativecommons.org/ns#" href="http://junwatu.github.io/" property="cc:attributionName" rel="cc:attributionURL">Equan Pr.</a> di kerjakan di bawah lisensi [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
