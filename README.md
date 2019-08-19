@@ -11,10 +11,10 @@ Ebook ini bisa anda akses dibeberapa tempat,
 :octocat: Github IDJS
 - [Github IDJS](https://idjs.github.io/belajar-nodejs).
 
-:earth_asia:
+:earth_asia: Gitbook
 - [Gitbook](https://app.gitbook.com/@junwatu/s/pengenalan-node-js/).
 
-:green_book:
+:green_book: Google Play Store
 - [Google Play Store](https://play.google.com/store/books/details?id=pdOfDwAAQBAJ).
 
 ## Feedback
