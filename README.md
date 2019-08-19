@@ -1,4 +1,4 @@
-# Aplikasi Web Node.js
+# Belajar Node.js
 
 
 > **Note:** This book is written in Bahasa Indonesia and the main reason for that is because most of Node.js beginners in my country Indonesia is having difficulties to find Node.js resources written in my native language.
@@ -6,9 +6,15 @@
 
 Buku ini cocok bagi siapa saja yang ingin mulai belajar pemrograman di platform Node.js khususnya untuk membangun aplikasi web. Syarat yang dibutuhkan adalah pembaca setidaknya pernah atau sudah bisa memakai bahasa pemrograman JavaScript.
 
-Ebook ini bisa anda akses didua tempat yaitu:
+Ebook ini bisa anda akses dibeberapa tempat,
+
+:octocat: Github IDJS
 - [Github IDJS](https://idjs.github.io/belajar-nodejs).
+
+:earth_asia:
 - [Gitbook](https://app.gitbook.com/@junwatu/s/pengenalan-node-js/).
+
+:green_book:
 - [Google Play Store](https://play.google.com/store/books/details?id=pdOfDwAAQBAJ).
 
 ## Feedback
