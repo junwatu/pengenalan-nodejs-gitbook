@@ -2,8 +2,7 @@
 
 Untuk koneksi ke database MySQL cukup mudah seperti yang telah dibahas pada bab sebelumnya tentang Node dan Database MySQL.
 
-
-```
+```text
 /**
  * todatauri.js dengan Mysql
  *
@@ -67,11 +66,11 @@ function showData(connection) {
         } else {
             console.log('\n\nMySQL Database\n============================\n');
             result.forEach(function(element, index){
-                
+
                 console.log('id \u2192', element.id);
                 console.log('image \u2192', element.data);
             });
-            
+
             closeConnection();
         } 
     })
@@ -105,21 +104,25 @@ function closeConnection(){
         }
     });
 }
-
-
 ```
+
 Parsing argumen dilakukan oleh `process` yang merupakan object global di [Node.js](http://nodejs.org/api/process.html). Perlu diingat bahwa JavaScript memulai array dengan index 0 sehingga argumen yang diperlukan berada pada index 2
 
-    process.argv[2]
-    
+```text
+process.argv[2]
+```
+
 Jika anda berada pada platform UNIX atau GNU LINUX script diatas bisa dirubah untuk `self executable` dengan menambahkan script berikut pada line 1 di file `tdi.js`
 
-    #!/usr/bin/env node
-    
+```text
+#!/usr/bin/env node
+```
+
 Kemudian untuk menjalankannya cukup mudah seperti berikut
 
-    $ ./tdi.js
-    
+```text
+$ ./tdi.js
+```
 
 Script `tdi.js` sebenarnya cukup sederhana dan cukup untuk melakukan tugas yang di inginkan. Mungkin kelihatan agak rumit karena banyak `callback` di sana sini tetapi kalau anda sudah terbiasa memprogram secara asinkron pasti mudah sekali untuk melihat kode diatas.
 

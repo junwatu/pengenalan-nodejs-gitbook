@@ -8,8 +8,11 @@ Module `morgan` merupakan modul untuk logger yang berfungsi untuk pencatatan tia
 
 Untuk menginstall modul ini ketik perintah berikut
 
-    $ npm install morgan --save
+```text
+$ npm install morgan --save
+```
 
 Middleware middleware ini bisa anda lihat di link berikut
 
-https://github.com/senchalabs/connect#middleware
+[https://github.com/senchalabs/connect\#middleware](https://github.com/senchalabs/connect#middleware)
+

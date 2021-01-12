@@ -1,14 +1,17 @@
-#Server File
+# Server File
 
 Sebelumnya bikin project kecil dengan mengetikkan perintah berikut pada direktori project
 
-    $ npm init
+```text
+$ npm init
+```
 
 dan berikan nama project sebagai `server-file-statik`. Direktori project dari server file bisa dilihat pada sususan tree dibawah ini.
 
 > Susunan file dan direktori
 
-<pre>
+```text
+
 
     server-file-statis
     ├── package.json
@@ -17,44 +20,47 @@ dan berikan nama project sebagai `server-file-statik`. Direktori project dari se
     └── publik
         ├── index.html
 
-</pre>
-
+```
 
 Dengan adanya npm instalasi ExpressJS sangat mudah, ketik perintah berikut pada direktori project.
 
-    $ npm install express --save
-
-
+```text
+$ npm install express --save
+```
 
 > Catatan :
 >
-Perintah diatas akan menginstall ExpressJS dengan versi yang paling terbaru (pada saat buku ini ditulis versi terbaru adalah 4.x). Jika membutuhkan versi tertentu cukup dengan menambahkan '@' dan nomer versi yang akan di inginkan seperti contoh berikut
-
->       $ npm install express@3  --save
-
+> Perintah diatas akan menginstall ExpressJS dengan versi yang paling terbaru \(pada saat buku ini ditulis versi terbaru adalah 4.x\). Jika membutuhkan versi tertentu cukup dengan menambahkan '@' dan nomer versi yang akan di inginkan seperti contoh berikut
+>
+> ```text
+>   $ npm install express@3  --save
+> ```
 
 Untuk kedepannya bahasan mengenai ExpressJS ini akan memakai versi 4.x.
 
-##Kode
+## Kode
 
 Jika anda ingat server file yang memakai modul http pada bab sebelumnya berikut merupakan versi yang memakai ExpressJS
 
 > app.js
 
-    'use strict';
+```text
+'use strict';
 
-    var express = require('express');
-    var server = express();
-    var logger = require('morgan');
+var express = require('express');
+var server = express();
+var logger = require('morgan');
 
-    server.use(logger('dev'));
+server.use(logger('dev'));
 
-    server.use(express.static(__dirname+'/publik'));
+server.use(express.static(__dirname+'/publik'));
 
-    server.listen(4000, function(){
-        console.log('Server file sudah berjalan bos!');
-    });
+server.listen(4000, function(){
+    console.log('Server file sudah berjalan bos!');
+});
+```
 
 Seperti yang dijelaskan pada bab sebelumnya untuk memakai module Node.js di gunakan keyword `require`.
 
 Modul `express` akan menangani tiap request dari user dan kemudian akan memberikan response berupa file yang diinginkan. Pada kode diatas file yang akan diberikan ke pengguna disimpan pada folder `publik`.
+

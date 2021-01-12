@@ -1,35 +1,34 @@
-#Server
+# Server
 
 Kode sumber dari aplikasi ini dapat di download di link berikut
 
-https://github.com/junwatu/rest-node-mongoose-mongodb
+[https://github.com/junwatu/rest-node-mongoose-mongodb](https://github.com/junwatu/rest-node-mongoose-mongodb)
 
-
-##Instalasi
+## Instalasi
 
 Clone kode sumber melalui git dan instal depedensi paket melalui npm
 
+```text
+$ git clone https://github.com/junwatu/rest-node-mongoose-mongodb.git
 
-    $ git clone https://github.com/junwatu/rest-node-mongoose-mongodb.git
-    
-    $ cd rest-node-mongoose-mongodb
-    
-    $ npm install
+$ cd rest-node-mongoose-mongodb
 
+$ npm install
+```
 
 Pastikan database MongoDB sudah berjalan pada sistem anda jika menggunakan `service` **systemd** pada linux anda bisa menjalankannya dengan perintah berikut
 
-```
+```text
 $ sudo service mongod start
 ```
 
-##Kode
+## Kode
 
-Untuk lingkungan produksi ada baiknya untuk memecah file kode ke bagian yang lebih kecil supaya lebih mudah dalam hal *maintenance*. Untuk kemudahan dan kesederhanaan aplikasi ini maka kode utama ditulis  dalam satu file.
+Untuk lingkungan produksi ada baiknya untuk memecah file kode ke bagian yang lebih kecil supaya lebih mudah dalam hal _maintenance_. Untuk kemudahan dan kesederhanaan aplikasi ini maka kode utama ditulis dalam satu file.
 
 > app.js
 
-```
+```text
 /*
  * Koneksi Nodejs dengan MongoDB menggunakan Mongoose
  *
@@ -206,6 +205,5 @@ app.delete('/persons/:username', function(req, res){
 
 app.listen(app.get('PORT'));
 console.log("Server Port: " + app.get('PORT'));
-
 ```
 

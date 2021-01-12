@@ -1,11 +1,10 @@
-# Konverter PNG Ke Data URI
+# todatauri.js
 
 Mari kita lihat isi dari file `todatauri.js`. Pada dasarnya file ini merupakan pustaka sederhana yang akan mendownload image berformat `.png` di internet dan kemudian mengubahnya menjadi format **Data URI**.
 
 Jadi anda bisa menggunakan pustaka ini seperti halnya modul npm dengan bantuan `require`.
 
-
-```
+```text
 /**
  * todatauri.js
  * Download image and convert it to  Data URI
@@ -95,6 +94,9 @@ module.exports = Util();
 
 Fungsi utama pada file `todatauri.js` yaitu fungsi `imageToDataUri()` dan jika dilihat isinya maka sebenarnya sangat sederhana untuk mengubah gambar png ke encoding `base64` yang akan digunakan di Data URI.
 
-    buf.toString(encoding))
+```text
+buf.toString(encoding))
+```
 
 [`fs.readFile(filename[, options], callback)`](https://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback) merupakan fungsi untuk membaca file secara asinkron dan jika encoding tidak di berikan maka hasil pembacaan file akan mengembalikan data berupa `buffer`. Sehingga untuk mengubah data `buffer` ini ke `base64` cukup dengan memakai metode `.toString(encoding)`.
+

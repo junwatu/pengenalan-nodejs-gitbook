@@ -4,12 +4,5 @@ Framework ExpressJS sangat banyak digunakan sebagai aplikasi RESTful. Bagi anda 
 
 Aplikasi RESTful memakai request HTTP untuk operasi Create, Read, Update dan Delete data. REST itu sendiri bukanlah suatu standard jadi tidak ada yang namanya spec dari W3C. Sehingga sangat mudah bagi bahasa pemrograman untuk menggunakan arsitektur ini. Keuntungan lainnya yaitu dengan arsitektur ini bisa dibangun berbagai macam teknologi klien seperti web atau mobile ataupun dekstop untuk mengakses aplikasi RESTful tersebut.
 
-Untuk contoh aplikasi RESTful memakai ExpressJS akan diberikan pada Bab [**Person REST API**](../person_rest_api/README.md).
-
-
-
-
-
-
-
+Untuk contoh aplikasi RESTful memakai ExpressJS akan diberikan pada Bab [**Person REST API**](../person_rest_api/).
 

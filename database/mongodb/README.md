@@ -1,13 +1,12 @@
 # MongoDB
 
-Kalau anda sudah terbiasa memakai database relasional seperti MySQL mungkin diperlukan sedikit perubahan *mindset* untuk mengenal tipe database yang namanya **NoSQL**. Seperti arti dari namanya, database ini merupakan database yang tidak memakai bahasa SQL query data tapi bisa secara langsung menggunakan bahasa pemrograman client sebagai contoh adalah [MongoDB](https://www.mongodb.org/).
+Kalau anda sudah terbiasa memakai database relasional seperti MySQL mungkin diperlukan sedikit perubahan _mindset_ untuk mengenal tipe database yang namanya **NoSQL**. Seperti arti dari namanya, database ini merupakan database yang tidak memakai bahasa SQL query data tapi bisa secara langsung menggunakan bahasa pemrograman client sebagai contoh adalah [MongoDB](https://www.mongodb.org/).
 
-Database **NoSQL** seperti MongoDB menyimpan data sebagai dokumen yang *schema-less* yang artinya yaitu data yang disimpan mempunyai *key - value* yang tidak terikat atau bebas. Anda bisa membayangkannya sebagai data JSON yang tersimpan di database.
+Database **NoSQL** seperti MongoDB menyimpan data sebagai dokumen yang _schema-less_ yang artinya yaitu data yang disimpan mempunyai _key - value_ yang tidak terikat atau bebas. Anda bisa membayangkannya sebagai data JSON yang tersimpan di database.
 
 Klien bisa berinteraksi langsung dengan database MongoDB dengan menggunakan shell JavaScript `mongo` untuk administrasi dan query data. Sebagai contoh jika kita ingin membuat sample data sebanyak 100 di **collection** `sample` maka perintah dalam shell adalah seperti berikut,
 
-
-```
+```text
 $ mongo
 MongoDB shell version: 2.6.9
 connecting to: test
@@ -41,33 +40,30 @@ WriteResult({ "nInserted" : 1 })
 { "_id" : ObjectId("55cf520e2dd317a13673d12c"), "band" : "Dewa 17" }
 { "_id" : ObjectId("55cf520e2dd317a13673d12d"), "band" : "Dewa 18" }
 Type "it" for more
-> 
-
-
+>
 ```
 
-Untuk lebih jelasnya jika anda tertarik untuk bermain main dengan terminal MongoDB silahkan kunjungi [dokumentasinya](https://docs.mongodb.org/getting-started/shell/). 
+Untuk lebih jelasnya jika anda tertarik untuk bermain main dengan terminal MongoDB silahkan kunjungi [dokumentasinya](https://docs.mongodb.org/getting-started/shell/).
 
-Sebelum kita lanjutkan ke koneksi Node.js dan MongoDB, perlu di ingat beberapa konsep penting dari MongoDB 
+Sebelum kita lanjutkan ke koneksi Node.js dan MongoDB, perlu di ingat beberapa konsep penting dari MongoDB
 
-###Collection
+## Collection
 
 **Collection** adalah kumpulan dari **document**, analoginya walaupun kurang tepat sebenarnya bisa dibilang seperti tabel kalo dalam database relasional.
 
-###Document
+## Document
 
 **Document** itu sendiri adalah data yang tersimpan di database NoSQL dan didefinisikan oleh yang namanya **Schema**.
 
+## Schema
 
-###Schema
+Sebelumnya di katakan bahwa NoSQL menyimpan data yang _schema-less_, memang benar tapi tetap untuk menyimpan suatu dokumen di database biasanya aplikasi bekerja dengan model data tertentu misalnya untuk data `Person` bisa mempunyai _key - value_ seperti berikut
 
-Sebelumnya di katakan bahwa NoSQL menyimpan data yang *schema-less*, memang benar tapi tetap untuk menyimpan suatu dokumen di database biasanya aplikasi bekerja dengan model data tertentu misalnya untuk data `Person` bisa mempunyai *key - value* seperti berikut
-
-```
+```text
 {
     nama: "Kebo Ijo",
     email: "mbolang@kebo.xyz",
     username: "obek_seloso"
 }
-
 ```
+

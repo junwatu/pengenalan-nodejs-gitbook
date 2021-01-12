@@ -1,25 +1,24 @@
-# node sqlite3
+# Node Sqlite3
 
 Komunitas node menyediakan banyak solusi untuk memakai SQLite di platform Node.js. Salah satu yang paling populer adalah modul [`node-sqlite3`](https://github.com/mapbox/node-sqlite3).
 
-##Instal
+## Instal
 
 node `sqlite3` merupakan binding modul JavaScript yang asinkron untuk database sqlite3.
 
 Untuk penginstalan modul ini ketik perintah berikut
 
+```text
+$ npm install sqlite3 --save
+```
 
-    $ npm install sqlite3 --save
-
-
-##CRUD
+## CRUD
 
 Operasi database seperti **Create**, **Read**, **Update** dan **Delete** untuk database SQLite sangat mudah seperti pada contoh berikut
 
-
 `app.js`
 
-```
+```text
 /**
  * Akses SQLite 3
  */
@@ -37,8 +36,8 @@ var film = {
 }
 
 var filmUpdate = {
-	id: 1,
-	deskripsi: "Best Indonesian Horror Movie."
+    id: 1,
+    deskripsi: "Best Indonesian Horror Movie."
 }
 
 // SQL Statement
@@ -49,7 +48,7 @@ var UPDATE_DATA = "UPDATE fdb SET deskripsi=$deskripsi WHERE id=$id";
 
 // Run SQL one at a time
 db.serialize(function() {
-	// Create table
+    // Create table
     db.run(CREATE_TABLE, function(err) {
         if (err) {
             console.log(err);
@@ -72,21 +71,21 @@ db.serialize(function() {
 
     // Update data
     db.run(UPDATE_DATA, {$deskripsi: filmUpdate.deskripsi, $id: filmUpdate.id}, function(err){
-    	if(err) {
-    		console.log(err);
-    	} else {
-    		console.log('UDATE DATA');
-    	}
+        if(err) {
+            console.log(err);
+        } else {
+            console.log('UDATE DATA');
+        }
     });
 
     selectAllData();
 
     db.run('DELETE FROM fdb WHERE id=$id', {$id:1}, function(err){
-    	if(err) {
-    		console.log(err)
-    	} else {
-    		console.log("DELETE DATA");
-    	};
+        if(err) {
+            console.log(err)
+        } else {
+            console.log("DELETE DATA");
+        };
 
     })
 
@@ -99,8 +98,6 @@ function selectAllData() {
         }
     })
 }
-
-
 ```
 
 Aplikasi diatas akan membuat tabel `fdb`, memasukkan data baru kemudian data tersebut akan di update dan terakhir akan dihapus.
@@ -111,9 +108,7 @@ Contoh diatas memakai API berikut ini
 
 `db.run(operasi_sqlite, callback)`
 
-
 Dengan memakai fungsi `db.serialize()` maka eksekusi sql akan di eksekusi secara serial atau berurutan dan operasi SQL apa saja bisa di eksekusi oleh node-sqlite3 dengan memakai metode `db.run()` tersebut.
-
 
 Penjelasan API lebih lanjut untuk Node SQLite bisa dilihat pada link berikut
 

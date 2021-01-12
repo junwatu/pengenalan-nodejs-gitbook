@@ -6,7 +6,7 @@ Sebagai contoh
 
 `band.js`
 
-```
+```text
 'use strict';
 
 function Band(){}
@@ -26,20 +26,12 @@ Untuk pemakaiannya seperti di bawah ini
 
 `app.js`
 
-```
+```text
 var band = require('./band.js');
 band.add('Dewa 19');
 
 console.log(band.info);
-
 ```
 
-
 `require()` diatas adalah fungsi sinkron yang meload paket atau modul lain dari sistem file.
-
-
-
-
-
-
 

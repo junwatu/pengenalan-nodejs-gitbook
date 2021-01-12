@@ -4,44 +4,29 @@ Mungkin database ini sudah tidak asing lagi bagi developer seperti anda karena m
 
 Kekuatan SQLite secara garis besar sebagai berikut
 
-***Serverless***
+_**Serverless**_
 
 SQLite tidak memerlukan proses lain untuk beroperasi seperti pada database lain yang umumnya sebagai server. Library SQLite akan mengakses file data secara langsung.
 
-***Zero Configuration***
+_**Zero Configuration**_
 
 Karena sifatnya bukan server maka database ini tidak memerlukan setup tertentu. Untuk membuat database cukup seperti ketika membuat file baru.
 
-***Cross-Platfrom***
+_**Cross-Platfrom**_
 
 Semua data tersimpan pada satu sistem file yang bersifat cross platform dan tidak memerlukan administrasi.
 
-***Self-Contained***
+_**Self-Contained**_
 
 Library SQLite sudah mencakup semua sistem database sehingga dengan mudah dapat diintegrasikan ke aplikasi host.
 
-***Small Runtime Footprint***
+_**Small Runtime Footprint**_
 
 Ukuran default dari SQLite ini kurang dari 1MB dan membutuhkan hanya beberapa Megabyte memory.
 
-
-***Transactional***
+_**Transactional**_
 
 Operasi transaksi kompatibel dengan ACID sehingga aman kalau harus mengakses data dari proses banyak thread.
 
-
-
 Untuk penjelasan lebih detil, silahkan kunjungi website resmi [http://sqlite.org](http://sqlite.org)
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,17 +1,16 @@
 # Image Uploader
 
-![Image Uploader](/images/image-uploader.png)
+![Image Uploader](.gitbook/assets/image-uploader.png)
 
-Aplikasi ini sangat sederhana, cara kerjanya yaitu gambar di upload ke server dan kemudian ditampilkan kembali ke browser. 
+Aplikasi ini sangat sederhana, cara kerjanya yaitu gambar di upload ke server dan kemudian ditampilkan kembali ke browser.
 
-##Server
+## Server
 
-Pada sisi server aplikasi ini memakai framework ExpressJS untuk menangani request HTTP dan paket formidable untuk menangani file yang diupload. 
+Pada sisi server aplikasi ini memakai framework ExpressJS untuk menangani request HTTP dan paket formidable untuk menangani file yang diupload.
 
-> Catatan: Aplikasi ini memakai sedikit fitur ES6 seperti `let`, `const`, *arrow function* sehingga anda perlu menginstall setidaknya Node.js v4.2.1 LTS 
+> Catatan: Aplikasi ini memakai sedikit fitur ES6 seperti `let`, `const`, _arrow function_ sehingga anda perlu menginstall setidaknya Node.js v4.2.1 LTS
 
-
-```
+```text
 server.post('/upload', (req, res) => {
   let form = new formidable.IncomingForm()
   form.uploadDir = path.join(__dirname, 'uploads')
@@ -29,14 +28,14 @@ server.post('/upload', (req, res) => {
   })
 })
 ```
+
 Kode diatas akan menangani file yang akan diupload dan menyimpan hasil upload pada direktori `uploads`. Formidable dapat dengan mudah dikonfigurasi, lihat [Github Formidable](https://github.com/felixge/node-formidable).
 
+## Uploader
 
-##Uploader
+Pada sisi klien uploder dibangun dengan memakai pustaka [DropzoneJS](http://www.dropzonejs.com) yang mendukung _drag n drop_ dan _preview thumbnail_. Pustaka ini sangat mudah untuk digunakan dan di kustomisasi
 
-Pada sisi klien uploder dibangun dengan memakai pustaka [DropzoneJS](http://www.dropzonejs.com) yang mendukung *drag n drop* dan *preview thumbnail*. Pustaka ini sangat mudah untuk digunakan dan di kustomisasi
-
-```
+```text
 Dropzone.options.mydropzone = {
   init: function () {
     this.on("complete", function(file) {
@@ -46,15 +45,15 @@ Dropzone.options.mydropzone = {
   maxFileSize : 2,
   acceptedFiles: 'image/*'
 }
-
 ```
-Konfigurasi diatas mengakibatkan uploader hanya menerima file bertipe gambar dan ukuran file tidak lebih dari 2MB dan yang perlu dicatat yaitu ketika file selesai diupload yaitu dengan mendengarkan event `complete` maka *list view* gambar yang dibuat dengan Kendo UI harus diupdate dengan memanggil metode `updateImage()`.
 
-##Image List 
+Konfigurasi diatas mengakibatkan uploader hanya menerima file bertipe gambar dan ukuran file tidak lebih dari 2MB dan yang perlu dicatat yaitu ketika file selesai diupload yaitu dengan mendengarkan event `complete` maka _list view_ gambar yang dibuat dengan Kendo UI harus diupdate dengan memanggil metode `updateImage()`.
+
+## Image List
 
 Kendo akan mengambil data dari server kemudian secara otomatis akan mengupdate `#listView` sesuai dengan banyaknya gambar yang telah terupload.
 
-```
+```text
 var updateImage = function () {
   var dataSource = new kendo.data.DataSource({
     transport: {
@@ -77,9 +76,9 @@ var updateImage = function () {
 }
 ```
 
-Komponen Kendo UI yang dipakai adalah `ListView` dan framework UI ini seperti framework kebanyakan lainnya juga memakai template untuk menghasilkan UI secara dinamik. 
+Komponen Kendo UI yang dipakai adalah `ListView` dan framework UI ini seperti framework kebanyakan lainnya juga memakai template untuk menghasilkan UI secara dinamik.
 
-```
+```text
  <div class="demo-section k-content wide">
         <div id="listView"></div>
         <div id="pager" class="k-pager-wrap"></div>
@@ -93,18 +92,19 @@ Komponen Kendo UI yang dipakai adalah `ListView` dan framework UI ini seperti fr
     </script>
 ```
 
-Data yang akan diambil dari server yaitu data gambar harus mempunyai field `ImageName` dan `ImageId`. 
+Data yang akan diambil dari server yaitu data gambar harus mempunyai field `ImageName` dan `ImageId`.
 
 Komponen yang disediakan oleh Kendo cukup lengkap dan jika anda tertarik dengan Kendo UI lebih lanjut silahkan berkunjung ke website resmi [Telerik](http://www.telerik.com).
 
 Untuk mengambil daftar gambar yang telah diupload klien akan mengakses URL berikut
 
-    http://localhost:5005/service/images
+```text
+http://localhost:5005/service/images
+```
 
 Server hanya akan memfilter file dengan tipe `jpg` dan `png` pada folder `uploads`. Filter dilakukan dengan mengecek tipe file melalui paket `mime` tepatnya melalui metode `mime.lookup(image)`.
 
-
-```
+```text
 server.get('/service/images', (req, res) => {
   let images = []
   fs.readdir(upload_dir, (err, files) => {
@@ -124,12 +124,11 @@ server.get('/service/images', (req, res) => {
     }
   })
 })
-
 ```
 
 Data yang dikembalikan ke klien adalah data JSON dengan format seperti berikut
 
-```
+```text
 [{
   ImageId: 1,
   ImageName: 'file.jpg'
@@ -137,3 +136,4 @@ Data yang dikembalikan ke klien adalah data JSON dengan format seperti berikut
 ```
 
 Kode sumber dari aplikasi ini bisa anda dapatkan pada repo Github [Image Uploader](http://github.com/junwatu/image-uploader).
+

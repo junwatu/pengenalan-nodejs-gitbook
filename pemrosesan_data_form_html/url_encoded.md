@@ -4,7 +4,7 @@ Hanya akan dibahas untuk 2 metode HTTP yaitu `GET` dan `POST` saja. Metode `GET`
 
 Ok langsung kita lihat kode server sederhana untuk parsing data form melalui objek `request` dengan data form bertipe `application/x-www-form-urlencoded` yang merupakan default dari tag form.
 
-```
+```text
 var http = require('http');
 var data = [];
 var qs = require('querystring');
@@ -28,11 +28,11 @@ var server = http.createServer(function(req, res){
 
 function tampilkanForm(res){
     var html = '<html><head><title>Data Hobiku</title></head><body>'
-		+ '<h1>Hobiku</h1>'
-		+ '<form method="post" action="/">'
-		+ '<p><input type="text" name="hobi"></p>'
-		+ '<p><input type="submit" value="Simpan"></p>'
-		+ '</form></body></html>';
+        + '<h1>Hobiku</h1>'
+        + '<form method="post" action="/">'
+        + '<p><input type="text" name="hobi"></p>'
+        + '<p><input type="submit" value="Simpan"></p>'
+        + '</form></body></html>';
 
     res.setHeader('Content-Type', 'text/html');
     res.setHeader('Content-Length', Buffer.byteLength(html));
@@ -67,26 +67,23 @@ function notFound(res) {
 
 server.listen(3003);
 console.log('server http berjalan pada port 3003');
-
 ```
 
 Untuk mengetest `GET` dan `POST` bisa dilakukan melalui curl, browser atau melalui gui [Postman](http://www.getpostman.com/).
 
-##GET
+## GET
 
-![GET form fields](/images/get-form.png)
+![GET form fields](../.gitbook/assets/get-form.png)
 
-##POST
+## POST
 
-![POST](/images/post-urlencoded-data.png)
-
+![POST](../.gitbook/assets/post-urlencoded-data.png)
 
 module `querystring` dari Node.js berfungsi untuk mengubah url encoded string menjadi objek JavaScript. Contohnya
 
-```
+```text
 querystring.parse('nama=lanadelrey&job=singer&album=borntodie&ultraviolence');
 // returns
 { nama: 'lanadelrey', job: 'singer',album: ['borntodie', 'ultraviolence']}
 ```
-
 
